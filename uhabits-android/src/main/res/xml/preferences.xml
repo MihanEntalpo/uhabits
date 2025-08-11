@@ -136,6 +136,19 @@
                 android:title="@string/import_data"
                 app:iconSpaceReserved="false" />
 
+        <Preference
+                android:key="publicBackupFolder"
+                android:title="@string/pref_public_backup_folder_title"
+                android:summary="@string/pref_public_backup_folder_summary"
+                app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+                android:defaultValue="false"
+                android:key="pref_public_auto_backup"
+                android:title="@string/pref_public_auto_backup_title"
+                android:summary="@string/pref_public_auto_backup_summary"
+                app:iconSpaceReserved="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

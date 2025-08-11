@@ -211,6 +211,25 @@ open class Preferences(private val storage: Storage) {
             for (l in listeners) l.onQuestionMarksChanged()
         }
 
+    var publicBackupUri: String?
+        get() {
+            val uri = storage.getString("pref_public_backup_uri", "")
+            return if (uri.isEmpty()) null else uri
+        }
+        set(value) {
+            if (value == null) {
+                storage.remove("pref_public_backup_uri")
+            } else {
+                storage.putString("pref_public_backup_uri", value)
+            }
+        }
+
+    var isPublicAutoBackupEnabled: Boolean
+        get() = storage.getBoolean("pref_public_auto_backup", false)
+        set(enabled) {
+            storage.putBoolean("pref_public_auto_backup", enabled)
+        }
+
     /**
      * @return An integer representing the first day of the week. Sunday
      * corresponds to 1, Monday to 2, and so on, until Saturday, which is
