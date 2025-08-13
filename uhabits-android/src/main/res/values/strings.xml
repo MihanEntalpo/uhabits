@@ -139,6 +139,8 @@
     <string name="export_full_backup_summary">Generates a file that contains all your data. This file can be imported back.</string>
     <string name="pref_public_backup_folder_title">Public backup folder</string>
     <string name="pref_public_backup_folder_summary">No folder selected</string>
+    <string name="pref_public_backup_add_date_title">Add date to backup filename</string>
+    <string name="pref_public_backup_add_date_summary">If disabled, backup will be saved as "Loop Habits Backup.db"</string>
     <string name="pref_public_auto_backup_title">Save backup to public folder every 15 minutes</string>
     <string name="pref_public_auto_backup_summary">Creates a backup in the selected folder every 15 minutes</string>
     <string name="bug_report_failed">Failed to generate bug report.</string>

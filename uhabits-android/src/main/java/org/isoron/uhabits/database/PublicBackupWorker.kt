@@ -22,7 +22,8 @@ class PublicBackupWorker(
         val path = UriUtils.getPathFromTreeUri(applicationContext, Uri.parse(uriString))
             ?: return Result.failure()
         return try {
-            DatabaseUtils.saveDatabaseCopy(applicationContext, File(path))
+            val addDate = prefs.isPublicBackupAddDateEnabled
+            DatabaseUtils.saveDatabaseCopy(applicationContext, File(path), addDate)
             Result.success()
         } catch (e: IOException) {
             Result.retry()

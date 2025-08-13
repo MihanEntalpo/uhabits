@@ -143,6 +143,13 @@
                 app:iconSpaceReserved="false" />
 
         <SwitchPreferenceCompat
+                android:defaultValue="true"
+                android:key="pref_public_backup_add_date"
+                android:title="@string/pref_public_backup_add_date_title"
+                android:summary="@string/pref_public_backup_add_date_summary"
+                app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
                 android:defaultValue="false"
                 android:key="pref_public_auto_backup"
                 android:title="@string/pref_public_auto_backup_title"

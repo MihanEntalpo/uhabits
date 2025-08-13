@@ -137,6 +137,8 @@
     <string name="export_full_backup_summary">Генерирует файл, который содержит все ваши данные. Этот файл можно импортировать обратно.</string>
     <string name="pref_public_backup_folder_title">Папка для публичной резервной копии</string>
     <string name="pref_public_backup_folder_summary">Папка не выбрана</string>
+    <string name="pref_public_backup_add_date_title">Добавлять дату в имя файла бэкапа</string>
+    <string name="pref_public_backup_add_date_summary">Если выключено, файл будет называться "Loop Habits Backup.db"</string>
     <string name="pref_public_auto_backup_title">Сохранять резервную копию в публичной папке каждые 15 минут</string>
     <string name="pref_public_auto_backup_summary">Создаёт резервную копию в выбранной папке каждые 15 минут</string>
     <string name="bug_report_failed">Ошибка генерации отчёта об ошибке.</string>
