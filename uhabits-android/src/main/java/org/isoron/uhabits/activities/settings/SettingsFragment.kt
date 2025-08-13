@@ -69,7 +69,7 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
                     Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION
                 requireContext().contentResolver.takePersistableUriPermission(uri, flags)
                 prefs.publicBackupUri = uri.toString()
-                val pref = findPreference<Preference>("publicBackupFolder")
+                val pref = findPreference("publicBackupFolder")
                 pref?.summary = UriUtils.getPathFromTreeUri(requireContext(), uri)
             }
         }
@@ -155,7 +155,7 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
 
         findPreference("reminderSound").isVisible = false
 
-        val folderPref = findPreference<Preference>("publicBackupFolder")
+        val folderPref = findPreference("publicBackupFolder")
         val uriStr = prefs.publicBackupUri
         folderPref?.summary =
             if (uriStr == null) getString(R.string.pref_public_backup_folder_summary)
@@ -186,7 +186,7 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
         if (key == "pref_public_auto_backup") {
             val enabled = sharedPreferences.getBoolean("pref_public_auto_backup", false)
             if (enabled && prefs.publicBackupUri == null) {
-                val pref = findPreference<SwitchPreferenceCompat>("pref_public_auto_backup")
+                val pref = findPreference("pref_public_auto_backup") as SwitchPreferenceCompat?
                 pref?.isChecked = false
                 Toast.makeText(
                     context,
