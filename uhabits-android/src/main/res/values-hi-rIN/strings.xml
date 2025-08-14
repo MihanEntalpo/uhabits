@@ -165,9 +165,9 @@
     <string name="total">कुल</string>
     <string name="yes_or_no">हाँ या नहीं</string>
     <string name="every_x_days">\"
-हर %d दिन\"</string>
+हर %1$d दिन\"</string>
     <string name="every_x_weeks">\"
-हर %d हफ्ते\"</string>
+हर %2$d हफ्ते\"</string>
     <string name="score">स्कोर</string>
     <string name="reminder_sound">अनुस्मारक ध्वनि</string>
     <string name="none">\"
@@ -220,10 +220,10 @@
     <string name="measurable">मापें</string>
     <string name="measurable_example">जैसे आज आप कितने मील दौड़े? आपने कितने पन्ने पढ़े?</string>
     <string name="x_times_per_week">\"
-प्रति सप्ताह %d बार\"</string>
+प्रति सप्ताह %1$d बार\"</string>
     <string name="x_times_per_month">\"
-प्रति माह %d बार\"</string>
-    <string name="x_times_per_y_days">%d बार %d दिन</string>
+प्रति माह %2$d बार\"</string>
+    <string name="x_times_per_y_days">%1$d बार %2$d दिन</string>
     <string name="yes_or_no_short_example">जैसे व्यायाम</string>
     <string name="color">रंग</string>
     <string name="example_target">जैसे १५</string>

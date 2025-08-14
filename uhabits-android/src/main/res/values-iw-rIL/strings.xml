@@ -152,8 +152,8 @@
     <string name="year">שנה</string>
     <string name="total">סה״כ</string>
     <string name="yes_or_no">כן או לא</string>
-    <string name="every_x_days">כל %d ימים</string>
-    <string name="every_x_weeks">כל %d שבועות</string>
+    <string name="every_x_days">כל %1$d ימים</string>
+    <string name="every_x_weeks">כל %2$d שבועות</string>
     <string name="score">ציון</string>
     <string name="reminder_sound">צליל תזכורת</string>
     <string name="none">ללא</string>
@@ -204,9 +204,9 @@
     <string name="yes_or_no_example">למשל: התעוררת מוקדם היום? עשית כושר? שיחקת שחמט?</string>
     <string name="measurable">הרגלים נמדדים</string>
     <string name="measurable_example">למשל: כמה קילומטרים רצת היום? כמה עמודים קראת?</string>
-    <string name="x_times_per_week">%d פעמים בשבוע</string>
-    <string name="x_times_per_month">%d פעמים בחודש</string>
-    <string name="x_times_per_y_days">%d פעמים ב־%d ימים</string>
+    <string name="x_times_per_week">%1$d פעמים בשבוע</string>
+    <string name="x_times_per_month">%2$d פעמים בחודש</string>
+    <string name="x_times_per_y_days">%1$d פעמים ב־%2$d ימים</string>
     <string name="yes_or_no_short_example">למשל: פעילות גופנית</string>
     <string name="color">צבע</string>
     <string name="example_target">למשל: 15</string>

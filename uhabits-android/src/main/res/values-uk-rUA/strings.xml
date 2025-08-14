@@ -161,8 +161,8 @@
     <string name="year">Рік</string>
     <string name="total">Усього</string>
     <string name="yes_or_no">Так або ні</string>
-    <string name="every_x_days">Кожні %d дні(-в)</string>
-    <string name="every_x_weeks">Кожні %d тижні(-в)</string>
+    <string name="every_x_days">Кожні %1$d дні(-в)</string>
+    <string name="every_x_weeks">Кожні %2$d тижні(-в)</string>
     <string name="score">Сталість</string>
     <string name="reminder_sound">Звук нагадування</string>
     <string name="none">Немає</string>
@@ -213,9 +213,9 @@
     <string name="yes_or_no_example">напр., чи прокинулися сьогодні зрання? Чи виконали вправи? Або грали в шахи?</string>
     <string name="measurable">Вимірювальні</string>
     <string name="measurable_example">напр.: Скільки кілометрів ви сьогодні пробігли? Скільки сторінок прочитали?</string>
-    <string name="x_times_per_week">%d разів на тиждень</string>
-    <string name="x_times_per_month">%d разів на місяць</string>
-    <string name="x_times_per_y_days">%d разів за %d днів</string>
+    <string name="x_times_per_week">%1$d разів на тиждень</string>
+    <string name="x_times_per_month">%2$d разів на місяць</string>
+    <string name="x_times_per_y_days">%1$d разів за %2$d днів</string>
     <string name="yes_or_no_short_example">напр., вправа</string>
     <string name="color">Колір</string>
     <string name="example_target">напр., 15</string>

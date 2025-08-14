@@ -140,8 +140,8 @@
     <string name="year">Jaar</string>
     <string name="total">Totaal</string>
     <string name="yes_or_no">Ja of Nee</string>
-    <string name="every_x_days">Iedere %d dagen</string>
-    <string name="every_x_weeks">Iedere %d weken</string>
+    <string name="every_x_days">Iedere %1$d dagen</string>
+    <string name="every_x_weeks">Iedere %2$d weken</string>
     <string name="score">Score</string>
     <string name="reminder_sound">Herinneringsgeluid</string>
     <string name="none">Stil</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">bijv. Ben je vandaag vroeg wakker geworden? Heb je gesport? Heb je geschaakt?</string>
     <string name="measurable">Meetbaar</string>
     <string name="measurable_example">bijv. Hoeveel kilometer heb je vandaag gelopen? Hoeveel pagina\'s heb je gelezen?</string>
-    <string name="x_times_per_week">%d keer per week</string>
-    <string name="x_times_per_month">%d keer per maand</string>
-    <string name="x_times_per_y_days">%d keer in  %d dagen</string>
+    <string name="x_times_per_week">%1$d keer per week</string>
+    <string name="x_times_per_month">%2$d keer per maand</string>
+    <string name="x_times_per_y_days">%1$d keer in  %2$d dagen</string>
     <string name="yes_or_no_short_example">bijv. Sporten</string>
     <string name="color">Kleur</string>
     <string name="example_target">bijv. 15</string>

@@ -112,8 +112,8 @@
     <string name="year">År</string>
     <string name="total">Totalt</string>
     <string name="yes_or_no">Ja / Nei</string>
-    <string name="every_x_days">Hver %d. dag</string>
-    <string name="every_x_weeks">Hver %d. uke</string>
+    <string name="every_x_days">Hver %1$d. dag</string>
+    <string name="every_x_weeks">Hver %2$d. uke</string>
     <string name="score">Poengsum</string>
     <string name="reminder_sound">Påminnelseslyd</string>
     <string name="none">Ingen</string>
@@ -135,7 +135,7 @@
     <string name="by_score">Etter poengsum</string>
     <string name="export">Eksportér</string>
     <string name="question">Spørsmål</string>
-    <string name="x_times_per_y_days">%d ganger på %d dager</string>
+    <string name="x_times_per_y_days">%1$d ganger på %2$d dager</string>
 
     <string name="pref_public_backup_folder_title">Offentlig sikkerhetskopiering</string>
     <string name="pref_public_backup_folder_summary">Ingen mappe valgt</string>

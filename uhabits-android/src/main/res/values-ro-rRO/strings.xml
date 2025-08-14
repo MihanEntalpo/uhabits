@@ -121,8 +121,8 @@
     <string name="year">An</string>
     <string name="total">Total</string>
     <string name="yes_or_no">Da sau Nu</string>
-    <string name="every_x_days">La fiecare %d zile</string>
-    <string name="every_x_weeks">La fiecare %d săptămâni</string>
+    <string name="every_x_days">La fiecare %1$d zile</string>
+    <string name="every_x_weeks">La fiecare %2$d săptămâni</string>
     <string name="score">Scor</string>
     <string name="reminder_sound">Sunetul atenționării</string>
     <string name="none">Niciunul</string>
@@ -171,9 +171,9 @@
     <string name="yes_or_no_example">ex. Te-ai trezit mai devreme astăzi? Ai făcut exerciții? Ai jucat șah?</string>
     <string name="measurable">Măsurabil</string>
     <string name="measurable_example">ex.: Câți kilometri ai alergat astăzi? Câte pagini de carte ai citit?</string>
-    <string name="x_times_per_week">%d ori pe săptămână</string>
-    <string name="x_times_per_month">%d ori pe lună</string>
-    <string name="x_times_per_y_days">%d ori în %d zile</string>
+    <string name="x_times_per_week">%1$d ori pe săptămână</string>
+    <string name="x_times_per_month">%2$d ori pe lună</string>
+    <string name="x_times_per_y_days">%1$d ori în %2$d zile</string>
     <string name="yes_or_no_short_example">ex.: Exerciții</string>
     <string name="color">Culoare</string>
     <string name="example_target">ex.: 15</string>

@@ -140,8 +140,8 @@
     <string name="year">Urtea</string>
     <string name="total">Guztira</string>
     <string name="yes_or_no">Bai ala ez</string>
-    <string name="every_x_days">%d egunero</string>
-    <string name="every_x_weeks">%d astero</string>
+    <string name="every_x_days">%1$d egunero</string>
+    <string name="every_x_weeks">%2$d astero</string>
     <string name="score">Lorpena</string>
     <string name="reminder_sound">Oroigarriaren soinua</string>
     <string name="none">Bat ere ez</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">adib. Gaur goiz esnatu zara? Ariketa fisikoa egin al duzu? Xakean jolastu al duzu?</string>
     <string name="measurable">Neurgarria</string>
     <string name="measurable_example">Adib. Zenbat kilometro egin dituzu gaur? Zenbat orrialde irakurri dituzu?</string>
-    <string name="x_times_per_week">Astean %d aldiz</string>
-    <string name="x_times_per_month">Hilean %d aldiz</string>
-    <string name="x_times_per_y_days">%d aldiz %d egunetan</string>
+    <string name="x_times_per_week">Astean %1$d aldiz</string>
+    <string name="x_times_per_month">Hilean %2$d aldiz</string>
+    <string name="x_times_per_y_days">%1$d aldiz %2$d egunetan</string>
     <string name="yes_or_no_short_example">adib. Ariketa</string>
     <string name="color">Kolorea</string>
     <string name="example_target">adib. 15</string>

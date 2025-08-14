@@ -103,8 +103,8 @@
     <string name="year">Ár</string>
     <string name="total">Samtals</string>
     <string name="yes_or_no">Já eða nei</string>
-    <string name="every_x_days">Á %d daga fresti</string>
-    <string name="every_x_weeks">Á %d vikna fresti</string>
+    <string name="every_x_days">Á %1$d daga fresti</string>
+    <string name="every_x_weeks">Á %2$d vikna fresti</string>
     <string name="score">Árangur</string>
     <string name="reminder_sound">Tilkynningarhljóð</string>
     <string name="none">Ekkert</string>
@@ -150,9 +150,9 @@
     <string name="yes_or_no_example">t.d., Vaknaðir þú snemma í dag? Æfðir þú þig? Tefldir þú skák?</string>
     <string name="measurable">Mælanlegt</string>
     <string name="measurable_example">t.d., Hversu marga kílómetra hljópstu í dag? Hvað lasstu margar blaðsíður?</string>
-    <string name="x_times_per_week">%d sinnum í viku</string>
-    <string name="x_times_per_month">%d sinnum á mánuði</string>
-    <string name="x_times_per_y_days">%d sinnum á %d dögum</string>
+    <string name="x_times_per_week">%1$d sinnum í viku</string>
+    <string name="x_times_per_month">%2$d sinnum á mánuði</string>
+    <string name="x_times_per_y_days">%1$d sinnum á %2$d dögum</string>
     <string name="yes_or_no_short_example">t.d., Æfa sig</string>
     <string name="color">Litur</string>
     <string name="example_target">t.d., 15</string>

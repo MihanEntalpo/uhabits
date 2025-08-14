@@ -135,8 +135,8 @@
     <string name="year">年</string>
     <string name="total">总数</string>
     <string name="yes_or_no">完成与否</string>
-    <string name="every_x_days">每 %d 天</string>
-    <string name="every_x_weeks">每 %d 周</string>
+    <string name="every_x_days">每 %1$d 天</string>
+    <string name="every_x_weeks">每 %2$d 周</string>
     <string name="score">成绩</string>
     <string name="reminder_sound">提醒提示音</string>
     <string name="none">无</string>
@@ -187,9 +187,9 @@
     <string name="yes_or_no_example">例如：你今天早起了吗？你锻炼了吗？你下棋了吗？</string>
     <string name="measurable">可量化的</string>
     <string name="measurable_example">例如：今天你跑了几公里？你读了几页书？</string>
-    <string name="x_times_per_week">每周 %d 次</string>
-    <string name="x_times_per_month">每月 %d 次</string>
-    <string name="x_times_per_y_days">每 %d 天 %d 次</string>
+    <string name="x_times_per_week">每周 %1$d 次</string>
+    <string name="x_times_per_month">每月 %2$d 次</string>
+    <string name="x_times_per_y_days">每 %2$d 天 %1$d 次</string>
     <string name="yes_or_no_short_example">例如：锻炼</string>
     <string name="color">颜色</string>
     <string name="example_target">例如：15</string>

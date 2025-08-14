@@ -140,8 +140,8 @@
     <string name="year">Година</string>
     <string name="total">Общо</string>
     <string name="yes_or_no">Да или не</string>
-    <string name="every_x_days">На всеки %d дни</string>
-    <string name="every_x_weeks">На всеки %d седмици</string>
+    <string name="every_x_days">На всеки %1$d дни</string>
+    <string name="every_x_weeks">На всеки %2$d седмици</string>
     <string name="score">Сила</string>
     <string name="reminder_sound">Звук за напомняне</string>
     <string name="none">Няма</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">напр. Събудихте ли се рано днес? Тренирахте ли? Играхте ли шах?</string>
     <string name="measurable">Измерим</string>
     <string name="measurable_example">напр. Колко километра пробягахте днес? Колко страници прочетохте?</string>
-    <string name="x_times_per_week">%d пъти седмично</string>
-    <string name="x_times_per_month">%d пъти месечно</string>
-    <string name="x_times_per_y_days">%d пъти в период от %d дни</string>
+    <string name="x_times_per_week">%1$d пъти седмично</string>
+    <string name="x_times_per_month">%2$d пъти месечно</string>
+    <string name="x_times_per_y_days">%1$d пъти в период от %2$d дни</string>
     <string name="yes_or_no_short_example">напр. Тренировка</string>
     <string name="color">Цвят</string>
     <string name="example_target">напр. 15</string>

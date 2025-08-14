@@ -152,8 +152,8 @@
     <string name="year">Leto</string>
     <string name="total">Skupaj</string>
     <string name="yes_or_no">Da ali Ne</string>
-    <string name="every_x_days">Vsakih %d dni</string>
-    <string name="every_x_weeks">Vsakih %d tednov</string>
+    <string name="every_x_days">Vsakih %1$d dni</string>
+    <string name="every_x_weeks">Vsakih %2$d tednov</string>
     <string name="score">Ocena</string>
     <string name="reminder_sound">Zvok opomnika</string>
     <string name="none">Noben</string>
@@ -204,9 +204,9 @@
     <string name="yes_or_no_example">npr. Ste se danes zgodaj zbudili? Ste telovadili? Ste igrali šah?</string>
     <string name="measurable">Merljivo</string>
     <string name="measurable_example">npr. Koliko kilometrov ste pretekli danes? Koliko strani ste prebrali?</string>
-    <string name="x_times_per_week">%d krat na teden</string>
-    <string name="x_times_per_month">%d krat na mesec</string>
-    <string name="x_times_per_y_days">%d krat v %d dni</string>
+    <string name="x_times_per_week">%1$d krat na teden</string>
+    <string name="x_times_per_month">%2$d krat na mesec</string>
+    <string name="x_times_per_y_days">%1$d krat v %2$d dni</string>
     <string name="yes_or_no_short_example">npr. Vadba</string>
     <string name="color">Barva</string>
     <string name="example_target">npr. 15</string>

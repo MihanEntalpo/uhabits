@@ -134,8 +134,8 @@
     <string name="year">Năm</string>
     <string name="total">Tổng</string>
     <string name="yes_or_no">Có hay không</string>
-    <string name="every_x_days">Mỗi %d ngày</string>
-    <string name="every_x_weeks">Mỗi %d tuần</string>
+    <string name="every_x_days">Mỗi %1$d ngày</string>
+    <string name="every_x_weeks">Mỗi %2$d tuần</string>
     <string name="score">Điểm</string>
     <string name="reminder_sound">Âm báo</string>
     <string name="none">Không có</string>
@@ -186,9 +186,9 @@
     <string name="yes_or_no_example">Ví dụ: Hôm nay bạn có dậy sớm không? Bạn có tập thể dục? Bạn có chơi cờ vua không?</string>
     <string name="measurable">Có thể đo lường</string>
     <string name="measurable_example">Ví dụ: Hôm nay bạn đã chạy bao nhiêu dặm? Bạn đã đọc bao nhiêu trang?</string>
-    <string name="x_times_per_week">%d lần mỗi tuần</string>
-    <string name="x_times_per_month">%d lần mỗi tháng</string>
-    <string name="x_times_per_y_days">%d lần trong %d ngày</string>
+    <string name="x_times_per_week">%1$d lần mỗi tuần</string>
+    <string name="x_times_per_month">%2$d lần mỗi tháng</string>
+    <string name="x_times_per_y_days">%1$d lần trong %2$d ngày</string>
     <string name="yes_or_no_short_example">Ví dụ: Tập thể dục</string>
     <string name="color">Màu sắc</string>
     <string name="example_target">Ví dụ: 15</string>

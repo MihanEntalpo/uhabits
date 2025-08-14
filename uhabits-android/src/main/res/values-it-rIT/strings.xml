@@ -140,8 +140,8 @@
     <string name="year">Anno</string>
     <string name="total">Totale</string>
     <string name="yes_or_no">Sì o No</string>
-    <string name="every_x_days">Ogni %d giorni</string>
-    <string name="every_x_weeks">Ogni %d settimane</string>
+    <string name="every_x_days">Ogni %1$d giorni</string>
+    <string name="every_x_weeks">Ogni %2$d settimane</string>
     <string name="score">Punteggio</string>
     <string name="reminder_sound">Suono notifica</string>
     <string name="none">Nessuno</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">ad es. Ti sei svegliato presto oggi? Hai fatto esercizio? Hai giocato a scacchi?</string>
     <string name="measurable">Misurabile</string>
     <string name="measurable_example">es. Quanti chilometri hai percorso oggi? Quante pagine hai letto?</string>
-    <string name="x_times_per_week">%d volte a settimana</string>
-    <string name="x_times_per_month">%d volte al mese</string>
-    <string name="x_times_per_y_days">%d volte in %d giorni</string>
+    <string name="x_times_per_week">%1$d volte a settimana</string>
+    <string name="x_times_per_month">%2$d volte al mese</string>
+    <string name="x_times_per_y_days">%1$d volte in %2$d giorni</string>
     <string name="yes_or_no_short_example">ad es. Esercizio</string>
     <string name="color">Colore</string>
     <string name="example_target">ad es. 15</string>

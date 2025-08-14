@@ -140,8 +140,8 @@
     <string name="year">წელი</string>
     <string name="total">ჯამში</string>
     <string name="yes_or_no">კი თუ არა</string>
-    <string name="every_x_days">ყოველ %d დღეს</string>
-    <string name="every_x_weeks">ყოველ %d კვირას</string>
+    <string name="every_x_days">ყოველ %1$d დღეს</string>
+    <string name="every_x_weeks">ყოველ %2$d კვირას</string>
     <string name="score">შეფასება</string>
     <string name="reminder_sound">შემახსენებელი შეტყობინების ხმა</string>
     <string name="none">არცერთი</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">მაგ. დღეს ადრე გაიღვიძე? ივარჯიშე? ჭადრაკი ითამაშე?</string>
     <string name="measurable">გაზომვადი</string>
     <string name="measurable_example">მაგ. დღეს რამდენი კილომეტრი გაირბინე? რამდენი გვერდი წაიკითხე?</string>
-    <string name="x_times_per_week">კვირაში %d-ჯერ</string>
-    <string name="x_times_per_month">თვეში %d-ჯერ</string>
-    <string name="x_times_per_y_days">%d-ჯერ %d დღის განმავლობაში</string>
+    <string name="x_times_per_week">კვირაში %1$d-ჯერ</string>
+    <string name="x_times_per_month">თვეში %2$d-ჯერ</string>
+    <string name="x_times_per_y_days">%1$d-ჯერ %2$d დღის განმავლობაში</string>
     <string name="yes_or_no_short_example">მაგ. ვარჯიში</string>
     <string name="color">ფერი</string>
     <string name="example_target">მაგ. 15</string>

@@ -164,8 +164,8 @@
     <string name="year">عام</string>
     <string name="total">المجموع. </string>
     <string name="yes_or_no">نعم أو لا </string>
-    <string name="every_x_days">كل %d أيام </string>
-    <string name="every_x_weeks">كل %d أسابيع </string>
+    <string name="every_x_days">كل %1$d أيام </string>
+    <string name="every_x_weeks">كل %2$d أسابيع </string>
     <string name="score">النقاط </string>
     <string name="reminder_sound">صوت تذكير </string>
     <string name="none">صامت </string>
@@ -216,9 +216,9 @@
     <string name="yes_or_no_example">مثلا: هل استيقظت باكرا اليوم؟ هل مارست الرياضة؟ هل لعبت الشطرنج؟</string>
     <string name="measurable">قابل للقياس</string>
     <string name="measurable_example">مثال، كم ميلاً قطعته اليوم؟ كم عدد الصفحات التي قرأتها؟</string>
-    <string name="x_times_per_week">%d مرة في الأسبوع</string>
-    <string name="x_times_per_month">%d مرة في الشهر</string>
-    <string name="x_times_per_y_days">%d مرات في %d أيام</string>
+    <string name="x_times_per_week">%1$d مرة في الأسبوع</string>
+    <string name="x_times_per_month">%2$d مرة في الشهر</string>
+    <string name="x_times_per_y_days">%1$d مرات في %2$d أيام</string>
     <string name="yes_or_no_short_example">مثال: التمرين</string>
     <string name="color">اللون</string>
     <string name="example_target">مثال: 15</string>

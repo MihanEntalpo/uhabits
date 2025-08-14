@@ -145,8 +145,8 @@
     <string name="year">Év</string>
     <string name="total">Összesen</string>
     <string name="yes_or_no">Igen vagy Nem</string>
-    <string name="every_x_days">%d naponta</string>
-    <string name="every_x_weeks">%d hetente</string>
+    <string name="every_x_days">%1$d naponta</string>
+    <string name="every_x_weeks">%2$d hetente</string>
     <string name="score">Pont</string>
     <string name="reminder_sound">Emlékeztető dallama</string>
     <string name="none">Nem ismétlődik</string>
@@ -197,9 +197,9 @@
     <string name="yes_or_no_example">pl. Korán keltél ma fel? Edzettél? Sakkoztál?</string>
     <string name="measurable">Mérhető</string>
     <string name="measurable_example">pl. Hány kilométert futottál ma? Hány oldalt olvastál el?</string>
-    <string name="x_times_per_week">Heti %d alkalommal</string>
-    <string name="x_times_per_month">Havi %d alkalommal</string>
-    <string name="x_times_per_y_days">%d alk. / %d nap</string>
+    <string name="x_times_per_week">Heti %1$d alkalommal</string>
+    <string name="x_times_per_month">Havi %2$d alkalommal</string>
+    <string name="x_times_per_y_days">%1$d alk. / %2$d nap</string>
     <string name="yes_or_no_short_example">pl. Edzés</string>
     <string name="color">Szín</string>
     <string name="example_target">pl. 15</string>

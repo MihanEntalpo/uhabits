@@ -134,8 +134,8 @@
     <string name="year">年</string>
     <string name="total">合計</string>
     <string name="yes_or_no">はい / いいえ</string>
-    <string name="every_x_days">%d 日ごと</string>
-    <string name="every_x_weeks">%d 週ごと</string>
+    <string name="every_x_days">%1$d 日ごと</string>
+    <string name="every_x_weeks">%2$d 週ごと</string>
     <string name="score">スコア</string>
     <string name="reminder_sound">リマインダーの音</string>
     <string name="none">なし</string>
@@ -186,9 +186,9 @@
     <string name="yes_or_no_example">例：今日は早く起きましたか？運動しましたか？チェスをしましたか？</string>
     <string name="measurable">数えられるもの</string>
     <string name="measurable_example">例：今日は何キロ走りましたか？何ページ読みましたか？</string>
-    <string name="x_times_per_week">1 週間に %d 回</string>
-    <string name="x_times_per_month">1 か月に %d 回</string>
-    <string name="x_times_per_y_days">%d 回 %d 日</string>
+    <string name="x_times_per_week">1 週間に %1$d 回</string>
+    <string name="x_times_per_month">1 か月に %2$d 回</string>
+    <string name="x_times_per_y_days">%1$d 回 %2$d 日</string>
     <string name="yes_or_no_short_example">例：運動</string>
     <string name="color">色</string>
     <string name="example_target">例：15</string>

@@ -140,8 +140,8 @@
     <string name="year">Vuosi</string>
     <string name="total">Yhteensä</string>
     <string name="yes_or_no">Kyllä vai ei?</string>
-    <string name="every_x_days">%d päivän välein</string>
-    <string name="every_x_weeks">%d viikon välein</string>
+    <string name="every_x_days">%1$d päivän välein</string>
+    <string name="every_x_weeks">%2$d viikon välein</string>
     <string name="score">Pisteet</string>
     <string name="reminder_sound">Muistutusääni</string>
     <string name="none">Ei mitään</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">Esim. heräsitkö tänään aikaisin? Kuntoilitko? Pelasitko sakkia?</string>
     <string name="measurable">Mitattava</string>
     <string name="measurable_example">esim. Montako kilometriä juoksit tänään? Montako sivua luit?</string>
-    <string name="x_times_per_week">%d kertaa viikossa</string>
-    <string name="x_times_per_month">%d kertaa kuukaudessa</string>
-    <string name="x_times_per_y_days">%d kertaa %d päivässä</string>
+    <string name="x_times_per_week">%1$d kertaa viikossa</string>
+    <string name="x_times_per_month">%2$d kertaa kuukaudessa</string>
+    <string name="x_times_per_y_days">%1$d kertaa %2$d päivässä</string>
     <string name="yes_or_no_short_example">Esim. kuntoilu</string>
     <string name="color">Väri</string>
     <string name="example_target">Esim. 15</string>

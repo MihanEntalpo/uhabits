@@ -143,8 +143,8 @@
     <string name="year">Tahun</string>
     <string name="total">Total</string>
     <string name="yes_or_no">Ya atau Tidak</string>
-    <string name="every_x_days">Setiap %d hari</string>
-    <string name="every_x_weeks">Setiap %d minggu</string>
+    <string name="every_x_days">Setiap %1$d hari</string>
+    <string name="every_x_weeks">Setiap %2$d minggu</string>
     <string name="score">Skor</string>
     <string name="reminder_sound">Suara pengingat</string>
     <string name="none">Tidak ada</string>
@@ -195,9 +195,9 @@
     <string name="yes_or_no_example">mis. Apakah kamu bangun awal hari ini? Apakah kamu sudah berolahraga? Apakah kamu sudah bermain catur?</string>
     <string name="measurable">Terukur</string>
     <string name="measurable_example">mis. Berapa km kamu berlari hari ini? Berapa lembar yang sudah kamu baca?</string>
-    <string name="x_times_per_week">%d kali per minggu</string>
-    <string name="x_times_per_month">%d kali per bulan</string>
-    <string name="x_times_per_y_days">%d kali dalam %d hari</string>
+    <string name="x_times_per_week">%1$d kali per minggu</string>
+    <string name="x_times_per_month">%2$d kali per bulan</string>
+    <string name="x_times_per_y_days">%1$d kali dalam %2$d hari</string>
     <string name="yes_or_no_short_example">mis. Olahraga</string>
     <string name="color">Warna</string>
     <string name="example_target">mis. 15</string>

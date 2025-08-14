@@ -140,8 +140,8 @@
     <string name="year">سال</string>
     <string name="total">مجموع</string>
     <string name="yes_or_no">بله یا خیر</string>
-    <string name="every_x_days">هر %d روز یک‌بار</string>
-    <string name="every_x_weeks">هر %d هفته یک‌بار</string>
+    <string name="every_x_days">هر %1$d روز یک‌بار</string>
+    <string name="every_x_weeks">هر %2$d هفته یک‌بار</string>
     <string name="score">امتیاز</string>
     <string name="reminder_sound">صدای یادآور</string>
     <string name="none">هیچ‌کدام</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">آیا امروز زود بیدار شدید؟ ورزش کردید؟ شطرنج بازی کردید؟</string>
     <string name="measurable">قابل اندازه‌گیری</string>
     <string name="measurable_example">مثلاً امروز چند کیلومتر دویدید؟ چند صفحه مطالعه کردید؟</string>
-    <string name="x_times_per_week">%d بار در هفته</string>
-    <string name="x_times_per_month">%d بار در ماه</string>
-    <string name="x_times_per_y_days">%d بار در هر %d روز</string>
+    <string name="x_times_per_week">%1$d بار در هفته</string>
+    <string name="x_times_per_month">%2$d بار در ماه</string>
+    <string name="x_times_per_y_days">%1$d بار در هر %2$d روز</string>
     <string name="yes_or_no_short_example">مثلاً ورزش کنید</string>
     <string name="color">رنگ</string>
     <string name="example_target">مثلاً 15</string>

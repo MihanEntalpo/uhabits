@@ -140,8 +140,8 @@
     <string name="year">Yıl</string>
     <string name="total">Tümü</string>
     <string name="yes_or_no">Evet ya da Hayır</string>
-    <string name="every_x_days">Her %d gün</string>
-    <string name="every_x_weeks">Her %d hafta</string>
+    <string name="every_x_days">Her %1$d gün</string>
+    <string name="every_x_weeks">Her %2$d hafta</string>
     <string name="score">Puan</string>
     <string name="reminder_sound">Hatırlatma sesi</string>
     <string name="none">Sessiz</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">örn: Bugün erken kalktın mı? Egzersiz yaptın mı? Satranç oynadın mı?</string>
     <string name="measurable">Ölçülebilir</string>
     <string name="measurable_example">örn: Bugün kaç km koştun? Bugün kaç sayfa kitap okudun?</string>
-    <string name="x_times_per_week">Haftada %d kez</string>
-    <string name="x_times_per_month">Ayda %d kez</string>
-    <string name="x_times_per_y_days">%d defa / %d gün</string>
+    <string name="x_times_per_week">Haftada %1$d kez</string>
+    <string name="x_times_per_month">Ayda %2$d kez</string>
+    <string name="x_times_per_y_days">%1$d defa / %2$d gün</string>
     <string name="yes_or_no_short_example">örn: Egzersiz</string>
     <string name="color">Renk</string>
     <string name="example_target">örn: 15</string>

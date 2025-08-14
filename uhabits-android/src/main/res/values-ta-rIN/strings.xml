@@ -140,8 +140,8 @@
     <string name="year">வருடம்</string>
     <string name="total">மொத்தம்</string>
     <string name="yes_or_no">நீங்கள் செய்தீர்களா அல்லது செய்யவில்லை</string>
-    <string name="every_x_days">ஓவ்வொரு %d நாளும்</string>
-    <string name="every_x_weeks">ஒவ்வொரு %d வாரங்களும்</string>
+    <string name="every_x_days">ஓவ்வொரு %1$d நாளும்</string>
+    <string name="every_x_weeks">ஒவ்வொரு %2$d வாரங்களும்</string>
     <string name="score">மதிப்பெண்கள்</string>
     <string name="reminder_sound">நினைவூட்டல் சத்தம்</string>
     <string name="none">எதுவும் இல்லை</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">உதாரணமாக: இன்று நீங்கள் வழக்கம்போல முன் எழுந்தீர்களா? நீங்கள் உடற்பயிற்சி செய்தீர்களா? நீங்கள் சதுரங்கம் விளையாடினீர்களா?</string>
     <string name="measurable">மதிப்பிடக்கூடிய</string>
     <string name="measurable_example">எ. கா. நீங்கள் இன்று எத்தனை மைல்கள் ஓடிநீர்? நீங்கள் எத்தனை பக்கங்கள் படித்தீர்கள்?</string>
-    <string name="x_times_per_week">வாரத்திற்கு %d முறை</string>
-    <string name="x_times_per_month">மாதத்திற்க்கு %d முறை</string>
-    <string name="x_times_per_y_days">%d காலங்களில் %d நாட்கள்</string>
+    <string name="x_times_per_week">வாரத்திற்கு %1$d முறை</string>
+    <string name="x_times_per_month">மாதத்திற்க்கு %2$d முறை</string>
+    <string name="x_times_per_y_days">%1$d காலங்களில் %2$d நாட்கள்</string>
     <string name="yes_or_no_short_example">எ. கா. உடற்பயிற்ச்சி</string>
     <string name="color">நிறம்</string>
     <string name="example_target">எ. கா. 15</string>

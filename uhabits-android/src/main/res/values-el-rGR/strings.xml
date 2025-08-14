@@ -140,8 +140,8 @@
     <string name="year">Έτος</string>
     <string name="total">Σύνολο</string>
     <string name="yes_or_no">Ναι ή Όχι</string>
-    <string name="every_x_days">Κάθε %d ημέρες</string>
-    <string name="every_x_weeks">Κάθε %d εβδομάδες</string>
+    <string name="every_x_days">Κάθε %1$d ημέρες</string>
+    <string name="every_x_weeks">Κάθε %2$d εβδομάδες</string>
     <string name="score">Σκόρ</string>
     <string name="reminder_sound">Ήχος υπενθύμισης</string>
     <string name="none">Σιωπηλό</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">π.χ. Ξύπνησες νωρίς σήμερα; Ασκήθηκες; Έπαιξες σκάκι;</string>
     <string name="measurable">Μετρήσιμο</string>
     <string name="measurable_example">π.χ. Πόσα χιλιόμετρα τρέξατε σήμερα; Πόσες σελίδες διαβάσατε;</string>
-    <string name="x_times_per_week">%d φορές την εβδομάδα</string>
-    <string name="x_times_per_month">%d φορές το μήνα</string>
-    <string name="x_times_per_y_days">%d φορές σε %d ημέρες</string>
+    <string name="x_times_per_week">%1$d φορές την εβδομάδα</string>
+    <string name="x_times_per_month">%2$d φορές το μήνα</string>
+    <string name="x_times_per_y_days">%1$d φορές σε %2$d ημέρες</string>
     <string name="yes_or_no_short_example">π.χ. Σωματική άσκηση</string>
     <string name="color">Χρώμα</string>
     <string name="example_target">π.χ. 15</string>

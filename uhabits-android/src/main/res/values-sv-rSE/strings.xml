@@ -149,8 +149,8 @@
     <string name="year">År</string>
     <string name="total">Totalt</string>
     <string name="yes_or_no">Ja eller Nej</string>
-    <string name="every_x_days">Var %d:e dag</string>
-    <string name="every_x_weeks">Var %d:e vecka</string>
+    <string name="every_x_days">Var %1$d:e dag</string>
+    <string name="every_x_weeks">Var %2$d:e vecka</string>
     <string name="score">Poäng</string>
     <string name="reminder_sound">Påminnelseljud</string>
     <string name="none">Inget</string>
@@ -201,9 +201,9 @@
     <string name="yes_or_no_example">t.ex. Vaknade du tidigt idag? Tränade du? Spelade du schack?</string>
     <string name="measurable">Mätbar</string>
     <string name="measurable_example">t.ex. Hur många kilometer sprang du idag? Hur många sidor läste du?</string>
-    <string name="x_times_per_week">%d gånger per vecka</string>
-    <string name="x_times_per_month">%d gånger per månad</string>
-    <string name="x_times_per_y_days">%d gånger per %d dag(ar)</string>
+    <string name="x_times_per_week">%1$d gånger per vecka</string>
+    <string name="x_times_per_month">%2$d gånger per månad</string>
+    <string name="x_times_per_y_days">%1$d gånger per %2$d dag(ar)</string>
     <string name="yes_or_no_short_example">t.ex. Träna</string>
     <string name="color">Färg</string>
     <string name="example_target">t.ex. 15</string>
