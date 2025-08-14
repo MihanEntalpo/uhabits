@@ -156,6 +156,16 @@
                 android:summary="@string/pref_public_auto_backup_summary"
                 app:iconSpaceReserved="false" />
 
+        <ListPreference
+                android:key="pref_public_backup_frequency"
+                android:title="@string/pref_public_backup_frequency_title"
+                android:entries="@array/public_backup_frequency_entries"
+                android:entryValues="@array/public_backup_frequency_values"
+                android:defaultValue="15"
+                android:summary="%s"
+                android:dependency="pref_public_auto_backup"
+                app:iconSpaceReserved="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

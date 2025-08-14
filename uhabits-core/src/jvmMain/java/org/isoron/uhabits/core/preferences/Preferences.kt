@@ -236,6 +236,12 @@ open class Preferences(private val storage: Storage) {
             storage.putBoolean("pref_public_backup_add_date", enabled)
         }
 
+    var publicAutoBackupFrequency: Long
+        get() = storage.getString("pref_public_backup_frequency", "15").toLong()
+        set(value) {
+            storage.putString("pref_public_backup_frequency", value.toString())
+        }
+
     /**
      * @return An integer representing the first day of the week. Sunday
      * corresponds to 1, Monday to 2, and so on, until Saturday, which is

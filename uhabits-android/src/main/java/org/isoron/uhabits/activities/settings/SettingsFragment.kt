@@ -197,6 +197,10 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
             }
             scheduleAutoBackup(enabled)
         }
+        if (key == "pref_public_backup_frequency") {
+            val enabled = sharedPreferences.getBoolean("pref_public_auto_backup", false)
+            scheduleAutoBackup(enabled)
+        }
         BackupManager.dataChanged("org.isoron.uhabits")
         updateWeekdayPreference()
     }
@@ -241,8 +245,9 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
     private fun scheduleAutoBackup(enabled: Boolean) {
         val wm = WorkManager.getInstance(requireContext())
         if (enabled) {
+            val interval = prefs.publicAutoBackupFrequency
             val request =
-                PeriodicWorkRequestBuilder<PublicBackupWorker>(15, TimeUnit.MINUTES).build()
+                PeriodicWorkRequestBuilder<PublicBackupWorker>(interval, TimeUnit.MINUTES).build()
             wm.enqueueUniquePeriodicWork(
                 "public_auto_backup",
                 ExistingPeriodicWorkPolicy.UPDATE,
