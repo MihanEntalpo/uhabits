@@ -152,8 +152,8 @@
     <string name="year">שנה</string>
     <string name="total">סה״כ</string>
     <string name="yes_or_no">כן או לא</string>
-    <string name="every_x_days">כל %d ימים</string>
-    <string name="every_x_weeks">כל %d שבועות</string>
+    <string name="every_x_days">כל %1$d ימים</string>
+    <string name="every_x_weeks">כל %2$d שבועות</string>
     <string name="score">ציון</string>
     <string name="reminder_sound">צליל תזכורת</string>
     <string name="none">ללא</string>
@@ -204,9 +204,9 @@
     <string name="yes_or_no_example">למשל: התעוררת מוקדם היום? עשית כושר? שיחקת שחמט?</string>
     <string name="measurable">הרגלים נמדדים</string>
     <string name="measurable_example">למשל: כמה קילומטרים רצת היום? כמה עמודים קראת?</string>
-    <string name="x_times_per_week">%d פעמים בשבוע</string>
-    <string name="x_times_per_month">%d פעמים בחודש</string>
-    <string name="x_times_per_y_days">%d פעמים ב־%d ימים</string>
+    <string name="x_times_per_week">%1$d פעמים בשבוע</string>
+    <string name="x_times_per_month">%2$d פעמים בחודש</string>
+    <string name="x_times_per_y_days">%1$d פעמים ב־%2$d ימים</string>
     <string name="yes_or_no_short_example">למשל: פעילות גופנית</string>
     <string name="color">צבע</string>
     <string name="example_target">למשל: 15</string>
@@ -230,4 +230,19 @@
     <string name="activity_not_found">לא נמצא יישום שתומך בפעולה זו</string>
     <string name="pref_midnight_delay_title">הארכת היום בכמה שעות לאחר החצות</string>
     <string name="pref_midnight_delay_description">המתנה עד 3:00 לפני הצגת יום חדש. שימושי אם לרוב הולכים לישון אחרי חצות. דורש הפעלה מחדש של היישום.</string>
+
+    <string name="pref_public_backup_folder_title">תיקיית גיבוי ציבורית</string>
+    <string name="pref_public_backup_folder_summary">לא נבחרה תיקיה</string>
+    <string name="pref_public_backup_add_date_title">הוסף תאריך לשם קובץ גיבוי</string>
+    <string name="pref_public_backup_add_date_summary">אם יושבתו, הגיבוי יישמר כ&quot;הרגלי לולאה backup.db &quot;</string>
+    <string name="pref_public_auto_backup_title">שמור אוטומטית גיבוי ציבורי</string>
+    <string name="pref_public_auto_backup_summary">יוצר גיבוי בתיקיה שנבחרה מעת לעת</string>
+    <string name="pref_public_backup_frequency_title">תדר גיבוי</string>
+    <string name="public_backup_frequency_15m">15 דקות</string>
+    <string name="public_backup_frequency_1h">שעה אחת</string>
+    <string name="public_backup_frequency_1d">יום אחד</string>
+    <string name="public_backup_frequency_3d">3 ימים</string>
+    <string name="public_backup_frequency_7d">7 ימים</string>
+    <string name="public_backup_frequency_14d">14 יום</string>
+    <string name="public_backup_frequency_1m">חודש</string>
 </resources>

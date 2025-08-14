@@ -146,8 +146,8 @@
     <string name="year">година</string>
     <string name="total">укупно</string>
     <string name="yes_or_no">Да или не</string>
-    <string name="every_x_days">Сваких %d дана</string>
-    <string name="every_x_weeks">Свакe %d недељe</string>
+    <string name="every_x_days">Сваких %1$d дана</string>
+    <string name="every_x_weeks">Свакe %2$d недељe</string>
     <string name="score">снага</string>
     <string name="reminder_sound">Звук подсетника</string>
     <string name="none">без звука</string>
@@ -198,9 +198,9 @@
     <string name="yes_or_no_example">нпр. Да ли сте данас рано устали? Да ли сте вежбали? Јесте ли играли шах?</string>
     <string name="measurable">Мерљиво</string>
     <string name="measurable_example">нпр. Колико сте километара претрчали данас? Колико сте страница прочитали?</string>
-    <string name="x_times_per_week">%d пута недељно</string>
-    <string name="x_times_per_month">%d пута месечно</string>
-    <string name="x_times_per_y_days">%d пута у %d дана</string>
+    <string name="x_times_per_week">%1$d пута недељно</string>
+    <string name="x_times_per_month">%2$d пута месечно</string>
+    <string name="x_times_per_y_days">%1$d пута у %2$d дана</string>
     <string name="yes_or_no_short_example">нпр. вежбање</string>
     <string name="color">Боја</string>
     <string name="example_target">нпр. 15</string>
@@ -224,4 +224,19 @@
     <string name="activity_not_found">Нема апликације која подржава ову радњу</string>
     <string name="pref_midnight_delay_title">Продужите дан неколико сати иза поноћи</string>
     <string name="pref_midnight_delay_description">Чека до 03:00 да покаже нови дан. Корисно ако обично идете на спавање после поноћи. Захтева поновно покретање.</string>
+
+    <string name="pref_public_backup_folder_title">Јавна мапа сигурносне копије</string>
+    <string name="pref_public_backup_folder_summary">Није изабрана мапа</string>
+    <string name="pref_public_backup_add_date_title">Додајте датум за израду резервне копије назива датотеке</string>
+    <string name="pref_public_backup_add_date_summary">Ако је онемогућено, резервна копија ће бити сачувана као &quot;петље навике бацкуп.дб&quot;</string>
+    <string name="pref_public_auto_backup_title">Аутоматски сачувајте јавну резервну копију</string>
+    <string name="pref_public_auto_backup_summary">Повремено креира резервну копију у одабраној фасцикли</string>
+    <string name="pref_public_backup_frequency_title">Резервна копија Фреквенција</string>
+    <string name="public_backup_frequency_15m">15 минута</string>
+    <string name="public_backup_frequency_1h">1 сат</string>
+    <string name="public_backup_frequency_1d">1 дан</string>
+    <string name="public_backup_frequency_3d">3 дана</string>
+    <string name="public_backup_frequency_7d">7 дана</string>
+    <string name="public_backup_frequency_14d">14 дана</string>
+    <string name="public_backup_frequency_1m">1 месец</string>
 </resources>

@@ -140,8 +140,8 @@
     <string name="year">Έτος</string>
     <string name="total">Σύνολο</string>
     <string name="yes_or_no">Ναι ή Όχι</string>
-    <string name="every_x_days">Κάθε %d ημέρες</string>
-    <string name="every_x_weeks">Κάθε %d εβδομάδες</string>
+    <string name="every_x_days">Κάθε %1$d ημέρες</string>
+    <string name="every_x_weeks">Κάθε %2$d εβδομάδες</string>
     <string name="score">Σκόρ</string>
     <string name="reminder_sound">Ήχος υπενθύμισης</string>
     <string name="none">Σιωπηλό</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">π.χ. Ξύπνησες νωρίς σήμερα; Ασκήθηκες; Έπαιξες σκάκι;</string>
     <string name="measurable">Μετρήσιμο</string>
     <string name="measurable_example">π.χ. Πόσα χιλιόμετρα τρέξατε σήμερα; Πόσες σελίδες διαβάσατε;</string>
-    <string name="x_times_per_week">%d φορές την εβδομάδα</string>
-    <string name="x_times_per_month">%d φορές το μήνα</string>
-    <string name="x_times_per_y_days">%d φορές σε %d ημέρες</string>
+    <string name="x_times_per_week">%1$d φορές την εβδομάδα</string>
+    <string name="x_times_per_month">%2$d φορές το μήνα</string>
+    <string name="x_times_per_y_days">%1$d φορές σε %2$d ημέρες</string>
     <string name="yes_or_no_short_example">π.χ. Σωματική άσκηση</string>
     <string name="color">Χρώμα</string>
     <string name="example_target">π.χ. 15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">Δεν βρέθηκε εφαρμογή για την υποστήριξη αυτής της ενέργειας</string>
     <string name="pref_midnight_delay_title">Επεκτείνετε την ημέρα λίγες ώρες μετά τα μεσάνυχτα</string>
     <string name="pref_midnight_delay_description">Περιμένετε μέχρι τις 3:00 πμ για να εμφανιστεί μια νέα μέρα. Χρήσιμο αν συνήθως πάτε για ύπνο μετά τα μεσάνυχτα. Απαιτεί επανεκκίνηση της εφαρμογής.</string>
+
+    <string name="pref_public_backup_folder_title">Δημόσιος φάκελος</string>
+    <string name="pref_public_backup_folder_summary">Δεν επιλέχθηκε φάκελος</string>
+    <string name="pref_public_backup_add_date_title">Προσθήκη ημερομηνίας σε αντίγραφο ασφαλείας αρχείου</string>
+    <string name="pref_public_backup_add_date_summary">Εάν απενεργοποιηθεί, το αντίγραφο ασφαλείας θα αποθηκευτεί ως &quot;συνήθειες βρόχου backup.db&quot;</string>
+    <string name="pref_public_auto_backup_title">Εξοικονομήστε αυτόματα δημόσιο αντίγραφο ασφαλείας</string>
+    <string name="pref_public_auto_backup_summary">Δημιουργεί ένα αντίγραφο ασφαλείας στον επιλεγμένο φάκελο περιοδικά</string>
+    <string name="pref_public_backup_frequency_title">Εφεδρική συχνότητα</string>
+    <string name="public_backup_frequency_15m">15 λεπτά</string>
+    <string name="public_backup_frequency_1h">1 ώρα</string>
+    <string name="public_backup_frequency_1d">1 ημέρα</string>
+    <string name="public_backup_frequency_3d">3 ημέρες</string>
+    <string name="public_backup_frequency_7d">7 ημέρες</string>
+    <string name="public_backup_frequency_14d">14 ημέρες</string>
+    <string name="public_backup_frequency_1m">1 μήνα</string>
 </resources>

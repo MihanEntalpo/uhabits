@@ -140,8 +140,8 @@
     <string name="year">വർഷം</string>
     <string name="total">ആകെ</string>
     <string name="yes_or_no">ഉവ്വോ ഇല്ലയോ</string>
-    <string name="every_x_days">ഓരോ %d ദിവസത്തിലും</string>
-    <string name="every_x_weeks">ഓരോ %d ആഴ്ചയിലും</string>
+    <string name="every_x_days">ഓരോ %1$d ദിവസത്തിലും</string>
+    <string name="every_x_weeks">ഓരോ %2$d ആഴ്ചയിലും</string>
     <string name="score">സ്കോർ</string>
     <string name="reminder_sound">ഓർമ്മപ്പെടുത്തൽ ശബ്ദം</string>
     <string name="none">ഒന്നുമില്ല</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">ഉദാ.  ഇന്ന് നേരത്തെ ഉണർന്നോ?  നിങ്ങൾ വ്യായാമം ചെയ്തോ?  നിങ്ങൾ ചെസ്സ് കളിച്ചോ?</string>
     <string name="measurable">അളക്കാവുന്നത്</string>
     <string name="measurable_example">ഉദാ.  ഇന്ന് നിങ്ങൾ എത്ര മൈൽ ഓടി?  നിങ്ങൾ എത്ര പേജുകൾ വായിച്ചു?</string>
-    <string name="x_times_per_week">ആഴ്ചയിൽ %d തവണ</string>
-    <string name="x_times_per_month">പ്രതിമാസം %d തവണ</string>
-    <string name="x_times_per_y_days">%d ദിവസത്തിനുള്ളിൽ %d തവണ</string>
+    <string name="x_times_per_week">ആഴ്ചയിൽ %1$d തവണ</string>
+    <string name="x_times_per_month">പ്രതിമാസം %2$d തവണ</string>
+    <string name="x_times_per_y_days">%2$d ദിവസത്തിനുള്ളിൽ %1$d തവണ</string>
     <string name="yes_or_no_short_example">ഉദാ.  വ്യായാമം ചെയ്യുക</string>
     <string name="color">നിറം</string>
     <string name="example_target">ഉദാ.  15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">ഈ പ്രവർത്തനത്തെ പിന്തുണയ്ക്കുന്ന ഒരു ആപ്പും കണ്ടെത്തിയില്ല</string>
     <string name="pref_midnight_delay_title">അർദ്ധരാത്രി കഴിഞ്ഞ് കുറച്ച് മണിക്കൂറുകൾ പകൽ നീട്ടുക</string>
     <string name="pref_midnight_delay_description">ഒരു പുതിയ ദിവസം കാണിക്കാൻ 3:00 AM വരെ കാത്തിരിക്കുക.  നിങ്ങൾ സാധാരണയായി അർദ്ധരാത്രിക്ക് ശേഷം ഉറങ്ങാൻ പോകുകയാണെങ്കിൽ ഉപയോഗപ്രദമാണ്.  ആപ്പ് പുനരാരംഭിക്കേണ്ടതുണ്ട്.</string>
+
+    <string name="pref_public_backup_folder_title">പബ്ലിക് ബാക്കപ്പ് ഫോൾഡർ</string>
+    <string name="pref_public_backup_folder_summary">തിരഞ്ഞെടുത്ത ഫോൾഡുകളൊന്നുമില്ല</string>
+    <string name="pref_public_backup_add_date_title">ബാക്കപ്പ് ഫയൽനാമത്തിലേക്ക് തീയതി ചേർക്കുക</string>
+    <string name="pref_public_backup_add_date_summary">അപ്രാപ്തമാക്കിയിട്ടുണ്ടെങ്കിൽ, ബാക്കപ്പ് &quot;ലൂപ്പ് ശീലങ്ങൾ ബാക്കപ്പ് .db&quot; ആയി സംരക്ഷിക്കും</string>
+    <string name="pref_public_auto_backup_title">പൊതു ബാക്കപ്പ് യാന്ത്രികമായി സംരക്ഷിക്കുക</string>
+    <string name="pref_public_auto_backup_summary">ഇടയ്ക്കിടെ തിരഞ്ഞെടുത്ത ഫോൾഡിൽ ഒരു ബാക്കപ്പ് സൃഷ്ടിക്കുന്നു</string>
+    <string name="pref_public_backup_frequency_title">ബാക്കപ്പ് ആവൃത്തി</string>
+    <string name="public_backup_frequency_15m">15 മിനിറ്റ്</string>
+    <string name="public_backup_frequency_1h">1 മണിക്കൂർ</string>
+    <string name="public_backup_frequency_1d">1 ദിവസം</string>
+    <string name="public_backup_frequency_3d">3 ദിവസം</string>
+    <string name="public_backup_frequency_7d">7 ദിവസം</string>
+    <string name="public_backup_frequency_14d">14 ദിവസം</string>
+    <string name="public_backup_frequency_1m">1 മാസം</string>
 </resources>

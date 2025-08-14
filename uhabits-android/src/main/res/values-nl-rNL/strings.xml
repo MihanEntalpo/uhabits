@@ -140,8 +140,8 @@
     <string name="year">Jaar</string>
     <string name="total">Totaal</string>
     <string name="yes_or_no">Ja of Nee</string>
-    <string name="every_x_days">Iedere %d dagen</string>
-    <string name="every_x_weeks">Iedere %d weken</string>
+    <string name="every_x_days">Iedere %1$d dagen</string>
+    <string name="every_x_weeks">Iedere %2$d weken</string>
     <string name="score">Score</string>
     <string name="reminder_sound">Herinneringsgeluid</string>
     <string name="none">Stil</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">bijv. Ben je vandaag vroeg wakker geworden? Heb je gesport? Heb je geschaakt?</string>
     <string name="measurable">Meetbaar</string>
     <string name="measurable_example">bijv. Hoeveel kilometer heb je vandaag gelopen? Hoeveel pagina\'s heb je gelezen?</string>
-    <string name="x_times_per_week">%d keer per week</string>
-    <string name="x_times_per_month">%d keer per maand</string>
-    <string name="x_times_per_y_days">%d keer in  %d dagen</string>
+    <string name="x_times_per_week">%1$d keer per week</string>
+    <string name="x_times_per_month">%2$d keer per maand</string>
+    <string name="x_times_per_y_days">%1$d keer in  %2$d dagen</string>
     <string name="yes_or_no_short_example">bijv. Sporten</string>
     <string name="color">Kleur</string>
     <string name="example_target">bijv. 15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">Er is geen app gevonden om deze actie uit te voeren.</string>
     <string name="pref_midnight_delay_title">Verleng de dag tot een paar uur na middernacht</string>
     <string name="pref_midnight_delay_description">Wacht tot 3:00 uur om een nieuwe dag te beginnen. Handig als je normaal gesproken na middernacht gaat slapen. Dit vereist het opnieuw opstarten van de app.</string>
+
+    <string name="pref_public_backup_folder_title">Openbare back -upmap</string>
+    <string name="pref_public_backup_folder_summary">Geen map geselecteerd</string>
+    <string name="pref_public_backup_add_date_title">Datum toevoegen aan back -up bestandsnaam</string>
+    <string name="pref_public_backup_add_date_summary">Indien uitgeschakeld, wordt back -up opgeslagen als &quot;Loop Habits Backup.DB&quot;</string>
+    <string name="pref_public_auto_backup_title">Sla automatisch openbare back -up op</string>
+    <string name="pref_public_auto_backup_summary">Maakt regelmatig een back -up in de geselecteerde map</string>
+    <string name="pref_public_backup_frequency_title">Back -upfrequentie</string>
+    <string name="public_backup_frequency_15m">15 minuten</string>
+    <string name="public_backup_frequency_1h">1 uur</string>
+    <string name="public_backup_frequency_1d">1 dag</string>
+    <string name="public_backup_frequency_3d">3 dagen</string>
+    <string name="public_backup_frequency_7d">7 dagen</string>
+    <string name="public_backup_frequency_14d">14 dagen</string>
+    <string name="public_backup_frequency_1m">1 maand</string>
 </resources>

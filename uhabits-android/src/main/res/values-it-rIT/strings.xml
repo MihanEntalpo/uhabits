@@ -140,8 +140,8 @@
     <string name="year">Anno</string>
     <string name="total">Totale</string>
     <string name="yes_or_no">Sì o No</string>
-    <string name="every_x_days">Ogni %d giorni</string>
-    <string name="every_x_weeks">Ogni %d settimane</string>
+    <string name="every_x_days">Ogni %1$d giorni</string>
+    <string name="every_x_weeks">Ogni %2$d settimane</string>
     <string name="score">Punteggio</string>
     <string name="reminder_sound">Suono notifica</string>
     <string name="none">Nessuno</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">ad es. Ti sei svegliato presto oggi? Hai fatto esercizio? Hai giocato a scacchi?</string>
     <string name="measurable">Misurabile</string>
     <string name="measurable_example">es. Quanti chilometri hai percorso oggi? Quante pagine hai letto?</string>
-    <string name="x_times_per_week">%d volte a settimana</string>
-    <string name="x_times_per_month">%d volte al mese</string>
-    <string name="x_times_per_y_days">%d volte in %d giorni</string>
+    <string name="x_times_per_week">%1$d volte a settimana</string>
+    <string name="x_times_per_month">%2$d volte al mese</string>
+    <string name="x_times_per_y_days">%1$d volte in %2$d giorni</string>
     <string name="yes_or_no_short_example">ad es. Esercizio</string>
     <string name="color">Colore</string>
     <string name="example_target">ad es. 15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">Nessuna app disponibile per gestire questa azione</string>
     <string name="pref_midnight_delay_title">Prolunga il giorno di alcune ore dopo la mezzanotte</string>
     <string name="pref_midnight_delay_description">Attendere fino alle 3:00 per mostrare il nuovo giorno. Utile se solitamente vai a dormire dopo mezzanotte. È necessario riavviare l\'app.</string>
+
+    <string name="pref_public_backup_folder_title">Cartella di backup pubblica</string>
+    <string name="pref_public_backup_folder_summary">Nessuna cartella selezionata</string>
+    <string name="pref_public_backup_add_date_title">Aggiungi data al nome file di backup</string>
+    <string name="pref_public_backup_add_date_summary">Se disabilitato, il backup verrà salvato come &quot;backup.db&quot;.</string>
+    <string name="pref_public_auto_backup_title">Salva automaticamente il backup pubblico</string>
+    <string name="pref_public_auto_backup_summary">Crea periodicamente un backup nella cartella selezionata</string>
+    <string name="pref_public_backup_frequency_title">Frequenza di backup</string>
+    <string name="public_backup_frequency_15m">15 minuti</string>
+    <string name="public_backup_frequency_1h">1 ora</string>
+    <string name="public_backup_frequency_1d">1 giorno</string>
+    <string name="public_backup_frequency_3d">3 giorni</string>
+    <string name="public_backup_frequency_7d">7 giorni</string>
+    <string name="public_backup_frequency_14d">14 giorni</string>
+    <string name="public_backup_frequency_1m">1 mese</string>
 </resources>

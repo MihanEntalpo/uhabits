@@ -130,8 +130,8 @@
     <string name="year">Godina</string>
     <string name="total">Ukupno</string>
     <string name="yes_or_no">Da ili Ne</string>
-    <string name="every_x_days">Svaka %d dana</string>
-    <string name="every_x_weeks">Svaka %d tjedna</string>
+    <string name="every_x_days">Svaka %1$d dana</string>
+    <string name="every_x_weeks">Svaka %2$d tjedna</string>
     <string name="score">Rezultat</string>
     <string name="reminder_sound">Zvuk podsjetnika</string>
     <string name="none">Nijedan</string>
@@ -182,9 +182,9 @@
     <string name="yes_or_no_example">npr. Jesi li se danas rano probudio/la? Jesi li vježbao/la? Jesi li igrao/la šah?</string>
     <string name="measurable">Mjerljivo</string>
     <string name="measurable_example">npr. Koliko si kilometara danas istrčao/la? Koliko si stranica pročitao/la?</string>
-    <string name="x_times_per_week">%d puta tjedno</string>
-    <string name="x_times_per_month">%d puta mjesečno</string>
-    <string name="x_times_per_y_days">%d puta u %d dani</string>
+    <string name="x_times_per_week">%1$d puta tjedno</string>
+    <string name="x_times_per_month">%2$d puta mjesečno</string>
+    <string name="x_times_per_y_days">%1$d puta u %2$d dani</string>
     <string name="yes_or_no_short_example">npr. Vježbaj</string>
     <string name="color">Boja</string>
     <string name="example_target">npr. 15</string>
@@ -198,4 +198,19 @@
     <string name="no_habits">Navike nisu pronađene</string>
     <string name="no_numerical_habits">Mjerljive navike nisu pronađene</string>
     <string name="no_boolean_habits">Da/Ne navike nisu pronađene</string>
+
+    <string name="pref_public_backup_folder_title">Javna mapa za sigurnosnu kopiju</string>
+    <string name="pref_public_backup_folder_summary">Nije odabrana mapa</string>
+    <string name="pref_public_backup_add_date_title">Dodajte datum sigurnosnom kopiranju naziva datoteke</string>
+    <string name="pref_public_backup_add_date_summary">Ako je onemogućeno, sigurnosna kopija će se spremiti kao &quot;Loop Habits Backup.db&quot;</string>
+    <string name="pref_public_auto_backup_title">Automatski spremite sigurnosnu kopiju javnosti</string>
+    <string name="pref_public_auto_backup_summary">Povremeno stvara sigurnosnu kopiju u odabranoj mapi</string>
+    <string name="pref_public_backup_frequency_title">Frekvencija sigurnosnih kopija</string>
+    <string name="public_backup_frequency_15m">15 minuta</string>
+    <string name="public_backup_frequency_1h">1 sat</string>
+    <string name="public_backup_frequency_1d">1 dan</string>
+    <string name="public_backup_frequency_3d">3 dana</string>
+    <string name="public_backup_frequency_7d">7 dana</string>
+    <string name="public_backup_frequency_14d">14 dana</string>
+    <string name="public_backup_frequency_1m">1 mjesec</string>
 </resources>

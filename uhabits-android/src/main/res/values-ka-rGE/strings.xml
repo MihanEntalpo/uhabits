@@ -140,8 +140,8 @@
     <string name="year">წელი</string>
     <string name="total">ჯამში</string>
     <string name="yes_or_no">კი თუ არა</string>
-    <string name="every_x_days">ყოველ %d დღეს</string>
-    <string name="every_x_weeks">ყოველ %d კვირას</string>
+    <string name="every_x_days">ყოველ %1$d დღეს</string>
+    <string name="every_x_weeks">ყოველ %2$d კვირას</string>
     <string name="score">შეფასება</string>
     <string name="reminder_sound">შემახსენებელი შეტყობინების ხმა</string>
     <string name="none">არცერთი</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">მაგ. დღეს ადრე გაიღვიძე? ივარჯიშე? ჭადრაკი ითამაშე?</string>
     <string name="measurable">გაზომვადი</string>
     <string name="measurable_example">მაგ. დღეს რამდენი კილომეტრი გაირბინე? რამდენი გვერდი წაიკითხე?</string>
-    <string name="x_times_per_week">კვირაში %d-ჯერ</string>
-    <string name="x_times_per_month">თვეში %d-ჯერ</string>
-    <string name="x_times_per_y_days">%d-ჯერ %d დღის განმავლობაში</string>
+    <string name="x_times_per_week">კვირაში %1$d-ჯერ</string>
+    <string name="x_times_per_month">თვეში %2$d-ჯერ</string>
+    <string name="x_times_per_y_days">%1$d-ჯერ %2$d დღის განმავლობაში</string>
     <string name="yes_or_no_short_example">მაგ. ვარჯიში</string>
     <string name="color">ფერი</string>
     <string name="example_target">მაგ. 15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">ვერ მოიძებნა აპლიკაცია ამ ოპერაციის განსახორციელებლად</string>
     <string name="pref_midnight_delay_title">ახალი დღის დასაწყისის გადატანა ნაშუაღამევის რამდენიმე საათისთვის</string>
     <string name="pref_midnight_delay_description">ახალი დღის 03:00 საათზე დაწყება. ხელსაყრელია თუ ზოგადად შუაღამის შემდეგ იძინებ. საჭიროებს აპლიკაციის გადატვირთვას.</string>
+
+    <string name="pref_public_backup_folder_title">საჯარო სარეზერვო საქაღალდე</string>
+    <string name="pref_public_backup_folder_summary">არ არის შერჩეული საქაღალდე</string>
+    <string name="pref_public_backup_add_date_title">დაამატეთ თარიღი სარეზერვო ფაილის სახელით</string>
+    <string name="pref_public_backup_add_date_summary">თუ ინვალიდი, სარეზერვო დაზოგვა მოხდება, როგორც &quot;მარყუჟის ჩვევების სარეზერვო. Db&quot;</string>
+    <string name="pref_public_auto_backup_title">ავტომატურად შეინახეთ საჯარო სარეზერვო</string>
+    <string name="pref_public_auto_backup_summary">პერიოდულად ქმნის სარეზერვო ასლს</string>
+    <string name="pref_public_backup_frequency_title">სარეზერვო სიხშირე</string>
+    <string name="public_backup_frequency_15m">15 წუთი</string>
+    <string name="public_backup_frequency_1h">1 საათი</string>
+    <string name="public_backup_frequency_1d">1 დღე</string>
+    <string name="public_backup_frequency_3d">3 დღე</string>
+    <string name="public_backup_frequency_7d">7 დღე</string>
+    <string name="public_backup_frequency_14d">14 დღე</string>
+    <string name="public_backup_frequency_1m">1 თვე</string>
 </resources>

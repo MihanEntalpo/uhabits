@@ -140,8 +140,8 @@
     <string name="year">سال</string>
     <string name="total">مجموع</string>
     <string name="yes_or_no">بله یا خیر</string>
-    <string name="every_x_days">هر %d روز یک‌بار</string>
-    <string name="every_x_weeks">هر %d هفته یک‌بار</string>
+    <string name="every_x_days">هر %1$d روز یک‌بار</string>
+    <string name="every_x_weeks">هر %2$d هفته یک‌بار</string>
     <string name="score">امتیاز</string>
     <string name="reminder_sound">صدای یادآور</string>
     <string name="none">هیچ‌کدام</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">آیا امروز زود بیدار شدید؟ ورزش کردید؟ شطرنج بازی کردید؟</string>
     <string name="measurable">قابل اندازه‌گیری</string>
     <string name="measurable_example">مثلاً امروز چند کیلومتر دویدید؟ چند صفحه مطالعه کردید؟</string>
-    <string name="x_times_per_week">%d بار در هفته</string>
-    <string name="x_times_per_month">%d بار در ماه</string>
-    <string name="x_times_per_y_days">%d بار در هر %d روز</string>
+    <string name="x_times_per_week">%1$d بار در هفته</string>
+    <string name="x_times_per_month">%2$d بار در ماه</string>
+    <string name="x_times_per_y_days">%1$d بار در هر %2$d روز</string>
     <string name="yes_or_no_short_example">مثلاً ورزش کنید</string>
     <string name="color">رنگ</string>
     <string name="example_target">مثلاً 15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">هیچ برنامه‌ای برای انجام این کار یافت نشد.</string>
     <string name="pref_midnight_delay_title">تمدید کردن روز تا چند ساعت بعد از نیمه‌شب</string>
     <string name="pref_midnight_delay_description">تا ساعت ۳ نیمه‌شب برای نمایش یک روز جدید صبر می‌کند. اگر معمولاً بعد از نیمه‌شب می‌خوابید، برای شما می‌تواند مفید باشد. نیازمند راه‌اندازی مجدد برنامه است.</string>
+
+    <string name="pref_public_backup_folder_title">پوشه پشتیبان گیری عمومی</string>
+    <string name="pref_public_backup_folder_summary">هیچ پوشه ای انتخاب نشده است</string>
+    <string name="pref_public_backup_add_date_title">تاریخ را برای تهیه نسخه پشتیبان تهیه کنید</string>
+    <string name="pref_public_backup_add_date_summary">در صورت غیرفعال کردن ، نسخه پشتیبان تهیه می شود به عنوان &quot;عادت حلقه پشتیبان تهیه می شود. db&quot;</string>
+    <string name="pref_public_auto_backup_title">به طور خودکار از پشتیبان گیری عمومی صرفه جویی کنید</string>
+    <string name="pref_public_auto_backup_summary">به صورت دوره ای یک نسخه پشتیبان تهیه می کند</string>
+    <string name="pref_public_backup_frequency_title">بسامد پشتیبان</string>
+    <string name="public_backup_frequency_15m">15 دقیقه</string>
+    <string name="public_backup_frequency_1h">1 ساعت</string>
+    <string name="public_backup_frequency_1d">1 روز</string>
+    <string name="public_backup_frequency_3d">3 روز</string>
+    <string name="public_backup_frequency_7d">7 روز</string>
+    <string name="public_backup_frequency_14d">14 روز</string>
+    <string name="public_backup_frequency_1m">1 ماه</string>
 </resources>

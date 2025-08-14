@@ -145,8 +145,8 @@
     <string name="year">Év</string>
     <string name="total">Összesen</string>
     <string name="yes_or_no">Igen vagy Nem</string>
-    <string name="every_x_days">%d naponta</string>
-    <string name="every_x_weeks">%d hetente</string>
+    <string name="every_x_days">%1$d naponta</string>
+    <string name="every_x_weeks">%2$d hetente</string>
     <string name="score">Pont</string>
     <string name="reminder_sound">Emlékeztető dallama</string>
     <string name="none">Nem ismétlődik</string>
@@ -197,9 +197,9 @@
     <string name="yes_or_no_example">pl. Korán keltél ma fel? Edzettél? Sakkoztál?</string>
     <string name="measurable">Mérhető</string>
     <string name="measurable_example">pl. Hány kilométert futottál ma? Hány oldalt olvastál el?</string>
-    <string name="x_times_per_week">Heti %d alkalommal</string>
-    <string name="x_times_per_month">Havi %d alkalommal</string>
-    <string name="x_times_per_y_days">%d alk. / %d nap</string>
+    <string name="x_times_per_week">Heti %1$d alkalommal</string>
+    <string name="x_times_per_month">Havi %2$d alkalommal</string>
+    <string name="x_times_per_y_days">%1$d alk. / %2$d nap</string>
     <string name="yes_or_no_short_example">pl. Edzés</string>
     <string name="color">Szín</string>
     <string name="example_target">pl. 15</string>
@@ -223,4 +223,19 @@
     <string name="activity_not_found">Ezen művelet elvégzéséhez nem található alkalmazás.</string>
     <string name="pref_midnight_delay_title">A nap meghosszabbítása éjfél után néhány órával</string>
     <string name="pref_midnight_delay_description">Várjon hajnali 3 -ig, hogy új napot mutasson. Hasznos, ha általában éjfél után fekszik le. Az alkalmazás újraindítását igényli.</string>
+
+    <string name="pref_public_backup_folder_title">Nyilvános biztonsági mentési mappa</string>
+    <string name="pref_public_backup_folder_summary">Nincs kiválasztva mappa</string>
+    <string name="pref_public_backup_add_date_title">Adja hozzá a dátumot a biztonsági mentés fájlnévhez</string>
+    <string name="pref_public_backup_add_date_summary">Ha letiltva van, a biztonsági másolatot &quot;hurok szokásainak biztonsági.db&quot; néven menti meg</string>
+    <string name="pref_public_auto_backup_title">Automatikusan mentse el a nyilvános biztonsági mentést</string>
+    <string name="pref_public_auto_backup_summary">Rendszeresen készít biztonsági másolatot a kiválasztott mappában</string>
+    <string name="pref_public_backup_frequency_title">Biztonsági mentési frekvencia</string>
+    <string name="public_backup_frequency_15m">15 perc</string>
+    <string name="public_backup_frequency_1h">1 óra</string>
+    <string name="public_backup_frequency_1d">1 nap</string>
+    <string name="public_backup_frequency_3d">3 nap</string>
+    <string name="public_backup_frequency_7d">7 nap</string>
+    <string name="public_backup_frequency_14d">14 nap</string>
+    <string name="public_backup_frequency_1m">1 hónap</string>
 </resources>

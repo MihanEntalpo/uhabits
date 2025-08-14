@@ -140,8 +140,8 @@
     <string name="year">Година</string>
     <string name="total">Общо</string>
     <string name="yes_or_no">Да или не</string>
-    <string name="every_x_days">На всеки %d дни</string>
-    <string name="every_x_weeks">На всеки %d седмици</string>
+    <string name="every_x_days">На всеки %1$d дни</string>
+    <string name="every_x_weeks">На всеки %2$d седмици</string>
     <string name="score">Сила</string>
     <string name="reminder_sound">Звук за напомняне</string>
     <string name="none">Няма</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">напр. Събудихте ли се рано днес? Тренирахте ли? Играхте ли шах?</string>
     <string name="measurable">Измерим</string>
     <string name="measurable_example">напр. Колко километра пробягахте днес? Колко страници прочетохте?</string>
-    <string name="x_times_per_week">%d пъти седмично</string>
-    <string name="x_times_per_month">%d пъти месечно</string>
-    <string name="x_times_per_y_days">%d пъти в период от %d дни</string>
+    <string name="x_times_per_week">%1$d пъти седмично</string>
+    <string name="x_times_per_month">%2$d пъти месечно</string>
+    <string name="x_times_per_y_days">%1$d пъти в период от %2$d дни</string>
     <string name="yes_or_no_short_example">напр. Тренировка</string>
     <string name="color">Цвят</string>
     <string name="example_target">напр. 15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">Не е намерено приложение, което да поддържа това действие</string>
     <string name="pref_midnight_delay_title">Удължаване на деня с няколко часа след полунощ</string>
     <string name="pref_midnight_delay_description">Изчакване до 3:00 часа сутринта за показване на нов ден. Полезно, ако обичайно си лягате да спите след полунощ. Изисква рестартиране на приложението.</string>
+
+    <string name="pref_public_backup_folder_title">Публична папка за архивиране</string>
+    <string name="pref_public_backup_folder_summary">Не е избрана папка</string>
+    <string name="pref_public_backup_add_date_title">Добавете дата към резервното име на файл</string>
+    <string name="pref_public_backup_add_date_summary">Ако е деактивиран, резервното копие ще бъде запазено като „циклични навици за архивиране.db“</string>
+    <string name="pref_public_auto_backup_title">Автоматично спестете публично архивиране</string>
+    <string name="pref_public_auto_backup_summary">Създава резервно копие в избраната папка периодично</string>
+    <string name="pref_public_backup_frequency_title">Честота на резервно копие</string>
+    <string name="public_backup_frequency_15m">15 минути</string>
+    <string name="public_backup_frequency_1h">1 час</string>
+    <string name="public_backup_frequency_1d">1 ден</string>
+    <string name="public_backup_frequency_3d">3 дни</string>
+    <string name="public_backup_frequency_7d">7 дни</string>
+    <string name="public_backup_frequency_14d">14 дни</string>
+    <string name="public_backup_frequency_1m">1 месец</string>
 </resources>

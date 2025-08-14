@@ -140,8 +140,8 @@
     <string name="year">Yıl</string>
     <string name="total">Tümü</string>
     <string name="yes_or_no">Evet ya da Hayır</string>
-    <string name="every_x_days">Her %d gün</string>
-    <string name="every_x_weeks">Her %d hafta</string>
+    <string name="every_x_days">Her %1$d gün</string>
+    <string name="every_x_weeks">Her %2$d hafta</string>
     <string name="score">Puan</string>
     <string name="reminder_sound">Hatırlatma sesi</string>
     <string name="none">Sessiz</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">örn: Bugün erken kalktın mı? Egzersiz yaptın mı? Satranç oynadın mı?</string>
     <string name="measurable">Ölçülebilir</string>
     <string name="measurable_example">örn: Bugün kaç km koştun? Bugün kaç sayfa kitap okudun?</string>
-    <string name="x_times_per_week">Haftada %d kez</string>
-    <string name="x_times_per_month">Ayda %d kez</string>
-    <string name="x_times_per_y_days">%d defa / %d gün</string>
+    <string name="x_times_per_week">Haftada %1$d kez</string>
+    <string name="x_times_per_month">Ayda %2$d kez</string>
+    <string name="x_times_per_y_days">%1$d defa / %2$d gün</string>
     <string name="yes_or_no_short_example">örn: Egzersiz</string>
     <string name="color">Renk</string>
     <string name="example_target">örn: 15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">Bu işlemi gerçekleştirebilecek bir uygulama bulunamadı.</string>
     <string name="pref_midnight_delay_title">Yeni günü gece yarısından birkaç saat sonra başlat</string>
     <string name="pref_midnight_delay_description">Yeni gün saat 03:00\'ten sonra başlar. Geç saatlerde uyuyanlar için kullanışlıdır. Uygulamanın yeniden başlatılmasını gerektirir.</string>
+
+    <string name="pref_public_backup_folder_title">Genel yedekleme klasörü</string>
+    <string name="pref_public_backup_folder_summary">Klasör seçilmedi</string>
+    <string name="pref_public_backup_add_date_title">Yedekleme dosya adına tarih ekle</string>
+    <string name="pref_public_backup_add_date_summary">Devre dışı bırakılırsa, yedekleme &quot;Döngü Alışkanlıkları Backup.db&quot; olarak kaydedilecektir.</string>
+    <string name="pref_public_auto_backup_title">Otomatik olarak genel yedeklemeyi kaydedin</string>
+    <string name="pref_public_auto_backup_summary">Seçilen klasörde periyodik olarak bir yedekleme oluşturur</string>
+    <string name="pref_public_backup_frequency_title">Yedek frekans</string>
+    <string name="public_backup_frequency_15m">15 dakika</string>
+    <string name="public_backup_frequency_1h">1 saat</string>
+    <string name="public_backup_frequency_1d">1 gün</string>
+    <string name="public_backup_frequency_3d">3 gün</string>
+    <string name="public_backup_frequency_7d">7 gün</string>
+    <string name="public_backup_frequency_14d">14 gün</string>
+    <string name="public_backup_frequency_1m">1 ay</string>
 </resources>

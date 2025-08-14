@@ -148,8 +148,8 @@
     <string name="year">År</string>
     <string name="total">I alt</string>
     <string name="yes_or_no">Ja eller nej</string>
-    <string name="every_x_days">Hver %d dage</string>
-    <string name="every_x_weeks">Hver %d uger</string>
+    <string name="every_x_days">Hver %1$d dage</string>
+    <string name="every_x_weeks">Hver %2$d uger</string>
     <string name="score">Point</string>
     <string name="reminder_sound">Påmindelse lyd</string>
     <string name="none">Ingen</string>
@@ -195,9 +195,9 @@
     <string name="yes_or_no_example">F.eks. vågnede du tidligt i dag? Har du motioneret? Spillede du skak?</string>
     <string name="measurable">Målbar</string>
     <string name="measurable_example">f.eks Hvor mange kilometer kørte du i dag? Hvor mange sider læste du?</string>
-    <string name="x_times_per_week">%d gange om ugen</string>
-    <string name="x_times_per_month">%d gange om måneden</string>
-    <string name="x_times_per_y_days">%d gange på %d dage</string>
+    <string name="x_times_per_week">%1$d gange om ugen</string>
+    <string name="x_times_per_month">%2$d gange om måneden</string>
+    <string name="x_times_per_y_days">%1$d gange på %2$d dage</string>
     <string name="yes_or_no_short_example">f.eks. Motion</string>
     <string name="color">Farve</string>
     <string name="example_target">f.eks. 15</string>
@@ -221,4 +221,19 @@
     <string name="activity_not_found">Ingen app fundet til at understøtte denne handling</string>
     <string name="pref_midnight_delay_title">Forlæng dagen et par timer efter midnat</string>
     <string name="pref_midnight_delay_description">Vent til 3:00 for at vise en ny dag. Nyttigt, hvis du typisk går i seng efter midnat. Kræver genstart af app.</string>
+
+    <string name="pref_public_backup_folder_title">Offentlig backup -mappe</string>
+    <string name="pref_public_backup_folder_summary">Ingen mappe valgt</string>
+    <string name="pref_public_backup_add_date_title">Tilføj dato til sikkerhedskopiering af filnavn</string>
+    <string name="pref_public_backup_add_date_summary">Hvis deaktiveret, gemmes sikkerhedskopi som &quot;Loop Habits Backup.db&quot;</string>
+    <string name="pref_public_auto_backup_title">Gem automatisk offentlig sikkerhedskopi</string>
+    <string name="pref_public_auto_backup_summary">Opretter en sikkerhedskopi i den valgte mappe med jævne mellemrum</string>
+    <string name="pref_public_backup_frequency_title">Backupfrekvens</string>
+    <string name="public_backup_frequency_15m">15 minutter</string>
+    <string name="public_backup_frequency_1h">1 time</string>
+    <string name="public_backup_frequency_1d">1 dag</string>
+    <string name="public_backup_frequency_3d">3 dage</string>
+    <string name="public_backup_frequency_7d">7 dage</string>
+    <string name="public_backup_frequency_14d">14 dage</string>
+    <string name="public_backup_frequency_1m">1 måned</string>
 </resources>

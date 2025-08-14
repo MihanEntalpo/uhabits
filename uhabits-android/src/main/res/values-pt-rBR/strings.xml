@@ -140,8 +140,8 @@
     <string name="year">Ano</string>
     <string name="total">Total</string>
     <string name="yes_or_no">Sim ou não</string>
-    <string name="every_x_days">A cada %d dias</string>
-    <string name="every_x_weeks">A cada %d semanas</string>
+    <string name="every_x_days">A cada %1$d dias</string>
+    <string name="every_x_weeks">A cada %2$d semanas</string>
     <string name="score">Estabilidade</string>
     <string name="reminder_sound">Toque dos lembretes</string>
     <string name="none">Nenhum</string>
@@ -192,9 +192,9 @@
     <string name="yes_or_no_example">Ex.: Você acordou cedo hoje? Você se exercitou? Você jogou xadrez?</string>
     <string name="measurable">Mensurável</string>
     <string name="measurable_example">ex.: Quantos km você correu hoje? Quantas páginas você leu?</string>
-    <string name="x_times_per_week">%d vezes por semana</string>
-    <string name="x_times_per_month">%d vezes por mês</string>
-    <string name="x_times_per_y_days">%d vezes em %d dias</string>
+    <string name="x_times_per_week">%1$d vezes por semana</string>
+    <string name="x_times_per_month">%2$d vezes por mês</string>
+    <string name="x_times_per_y_days">%1$d vezes em %2$d dias</string>
     <string name="yes_or_no_short_example">ex: Exercício</string>
     <string name="color">Cor</string>
     <string name="example_target">Ex: 15</string>
@@ -218,4 +218,19 @@
     <string name="activity_not_found">Nenhum app encontrado para executar esta ação</string>
     <string name="pref_midnight_delay_title">Prolongar dia algumas horas depois da meia-noite</string>
     <string name="pref_midnight_delay_description">Espere até às 3:00 para mostrar um novo dia. Útil se você costuma dormir depois da meia-noite. Requer reinicialização do aplicativo.</string>
+
+    <string name="pref_public_backup_folder_title">Pasta de backup pública</string>
+    <string name="pref_public_backup_folder_summary">Nenhuma pasta selecionada</string>
+    <string name="pref_public_backup_add_date_title">Adicione a data ao nome do arquivo de backup</string>
+    <string name="pref_public_backup_add_date_summary">Se desativado, o backup será salvo como &quot;Backup de hábitos de loop.db&quot;</string>
+    <string name="pref_public_auto_backup_title">Salvar automaticamente o backup público</string>
+    <string name="pref_public_auto_backup_summary">Cria um backup na pasta selecionada periodicamente</string>
+    <string name="pref_public_backup_frequency_title">Frequência de backup</string>
+    <string name="public_backup_frequency_15m">15 minutos</string>
+    <string name="public_backup_frequency_1h">1 hora</string>
+    <string name="public_backup_frequency_1d">1 dia</string>
+    <string name="public_backup_frequency_3d">3 dias</string>
+    <string name="public_backup_frequency_7d">7 dias</string>
+    <string name="public_backup_frequency_14d">14 dias</string>
+    <string name="public_backup_frequency_1m">1 mês</string>
 </resources>

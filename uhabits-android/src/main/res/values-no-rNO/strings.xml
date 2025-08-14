@@ -112,8 +112,8 @@
     <string name="year">År</string>
     <string name="total">Totalt</string>
     <string name="yes_or_no">Ja / Nei</string>
-    <string name="every_x_days">Hver %d. dag</string>
-    <string name="every_x_weeks">Hver %d. uke</string>
+    <string name="every_x_days">Hver %1$d. dag</string>
+    <string name="every_x_weeks">Hver %2$d. uke</string>
     <string name="score">Poengsum</string>
     <string name="reminder_sound">Påminnelseslyd</string>
     <string name="none">Ingen</string>
@@ -135,5 +135,20 @@
     <string name="by_score">Etter poengsum</string>
     <string name="export">Eksportér</string>
     <string name="question">Spørsmål</string>
-    <string name="x_times_per_y_days">%d ganger på %d dager</string>
+    <string name="x_times_per_y_days">%1$d ganger på %2$d dager</string>
+
+    <string name="pref_public_backup_folder_title">Offentlig sikkerhetskopiering</string>
+    <string name="pref_public_backup_folder_summary">Ingen mappe valgt</string>
+    <string name="pref_public_backup_add_date_title">Legg til dato for sikkerhetskopiering av filnavn</string>
+    <string name="pref_public_backup_add_date_summary">Hvis deaktivert, vil sikkerhetskopiering bli lagret som &quot;Loop Habits Backup.DB&quot;</string>
+    <string name="pref_public_auto_backup_title">Lagre sikkerhetskopi automatisk</string>
+    <string name="pref_public_auto_backup_summary">Oppretter en sikkerhetskopi i den valgte mappen med jevne mellomrom</string>
+    <string name="pref_public_backup_frequency_title">Sikkerhetskopieringsfrekvens</string>
+    <string name="public_backup_frequency_15m">15 minutter</string>
+    <string name="public_backup_frequency_1h">1 time</string>
+    <string name="public_backup_frequency_1d">1 dag</string>
+    <string name="public_backup_frequency_3d">3 dager</string>
+    <string name="public_backup_frequency_7d">7 dager</string>
+    <string name="public_backup_frequency_14d">14 dager</string>
+    <string name="public_backup_frequency_1m">1 måned</string>
 </resources>

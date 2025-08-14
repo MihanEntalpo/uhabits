@@ -135,8 +135,8 @@
     <string name="year">年</string>
     <string name="total">总数</string>
     <string name="yes_or_no">完成与否</string>
-    <string name="every_x_days">每 %d 天</string>
-    <string name="every_x_weeks">每 %d 周</string>
+    <string name="every_x_days">每 %1$d 天</string>
+    <string name="every_x_weeks">每 %2$d 周</string>
     <string name="score">成绩</string>
     <string name="reminder_sound">提醒提示音</string>
     <string name="none">无</string>
@@ -187,9 +187,9 @@
     <string name="yes_or_no_example">例如：你今天早起了吗？你锻炼了吗？你下棋了吗？</string>
     <string name="measurable">可量化的</string>
     <string name="measurable_example">例如：今天你跑了几公里？你读了几页书？</string>
-    <string name="x_times_per_week">每周 %d 次</string>
-    <string name="x_times_per_month">每月 %d 次</string>
-    <string name="x_times_per_y_days">每 %d 天 %d 次</string>
+    <string name="x_times_per_week">每周 %1$d 次</string>
+    <string name="x_times_per_month">每月 %2$d 次</string>
+    <string name="x_times_per_y_days">每 %2$d 天 %1$d 次</string>
     <string name="yes_or_no_short_example">例如：锻炼</string>
     <string name="color">颜色</string>
     <string name="example_target">例如：15</string>
@@ -213,4 +213,19 @@
     <string name="activity_not_found">找不到支持此操作的应用</string>
     <string name="pref_midnight_delay_title">将一天延长到午夜后的几个小时</string>
     <string name="pref_midnight_delay_description">凌晨 3 点后再显示新的一天。如果你通常在午夜后入睡，这会很有用。重启应用后生效。</string>
+
+    <string name="pref_public_backup_folder_title">公共备份文件夹</string>
+    <string name="pref_public_backup_folder_summary">未选择文件夹</string>
+    <string name="pref_public_backup_add_date_title">将日期添加到备份文件名</string>
+    <string name="pref_public_backup_add_date_summary">如果禁用，备份将被保存为“循环习惯backup.db”</string>
+    <string name="pref_public_auto_backup_title">自动保存公共备份</string>
+    <string name="pref_public_auto_backup_summary">定期在选定的文件夹中创建备份</string>
+    <string name="pref_public_backup_frequency_title">备份频率</string>
+    <string name="public_backup_frequency_15m">15分钟</string>
+    <string name="public_backup_frequency_1h">1小时</string>
+    <string name="public_backup_frequency_1d">1天</string>
+    <string name="public_backup_frequency_3d">3天</string>
+    <string name="public_backup_frequency_7d">7天</string>
+    <string name="public_backup_frequency_14d">14天</string>
+    <string name="public_backup_frequency_1m">1个月</string>
 </resources>

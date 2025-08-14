@@ -152,8 +152,8 @@
     <string name="year">Rok</string>
     <string name="total">Łącznie</string>
     <string name="yes_or_no">Tak lub Nie</string>
-    <string name="every_x_days">Co %d dni</string>
-    <string name="every_x_weeks">Co %d tygodni</string>
+    <string name="every_x_days">Co %1$d dni</string>
+    <string name="every_x_weeks">Co %2$d tygodni</string>
     <string name="score">Wynik</string>
     <string name="reminder_sound">Dźwięk przypomnienia</string>
     <string name="none">Brak</string>
@@ -204,9 +204,9 @@
     <string name="yes_or_no_example">np. Czy obudziłeś się dzisiaj wcześnie? Czy ćwiczyłeś? Czy grałeś w szachy?</string>
     <string name="measurable">Mierzalne</string>
     <string name="measurable_example">np. Ile mil przejechałeś dzisiaj? Ile stron przeczytałeś?</string>
-    <string name="x_times_per_week">%d razy w tygodniu</string>
-    <string name="x_times_per_month">%d razy w miesiącu</string>
-    <string name="x_times_per_y_days">%d razy w ciągu %d dni</string>
+    <string name="x_times_per_week">%1$d razy w tygodniu</string>
+    <string name="x_times_per_month">%2$d razy w miesiącu</string>
+    <string name="x_times_per_y_days">%1$d razy w ciągu %2$d dni</string>
     <string name="yes_or_no_short_example">np. ćwiczenia</string>
     <string name="color">Kolor</string>
     <string name="example_target">np. 15</string>
@@ -230,4 +230,19 @@
     <string name="activity_not_found">Nie znaleziono aplikacji obsługującej to działanie</string>
     <string name="pref_midnight_delay_title">Przedłuż dzień o kilka godzin po północy</string>
     <string name="pref_midnight_delay_description">Poczekaj do 3:00, aby pokazać nowy dzień. Przydatne, jeśli zwykle kładziesz się spać po północy. Wymaga ponownego uruchomienia aplikacji.</string>
+
+    <string name="pref_public_backup_folder_title">Publiczny folder kopii zapasowej</string>
+    <string name="pref_public_backup_folder_summary">Brak folderu</string>
+    <string name="pref_public_backup_add_date_title">Dodaj datę do zapasowej nazwy pliku</string>
+    <string name="pref_public_backup_add_date_summary">Jeśli wyłączony, kopia zapasowa zostanie zapisana jako „nawyki pętli Backup.db”</string>
+    <string name="pref_public_auto_backup_title">Automatycznie zapisz publiczny kopia zapasowa</string>
+    <string name="pref_public_auto_backup_summary">Okresowo tworzy kopię zapasową w wybranym folderze</string>
+    <string name="pref_public_backup_frequency_title">Częstotliwość kopii zapasowej</string>
+    <string name="public_backup_frequency_15m">15 minut</string>
+    <string name="public_backup_frequency_1h">1 godzina</string>
+    <string name="public_backup_frequency_1d">1 dzień</string>
+    <string name="public_backup_frequency_3d">3 dni</string>
+    <string name="public_backup_frequency_7d">7 dni</string>
+    <string name="public_backup_frequency_14d">14 dni</string>
+    <string name="public_backup_frequency_1m">1 miesiąc</string>
 </resources>
