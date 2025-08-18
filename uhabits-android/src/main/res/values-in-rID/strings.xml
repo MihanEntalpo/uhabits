@@ -236,4 +236,5 @@
     <string name="public_backup_frequency_7d">7 hari</string>
     <string name="public_backup_frequency_14d">14 hari</string>
     <string name="public_backup_frequency_1m">1 bulan</string>
+    <string name="automatic_backup">Cadangan Otomatis</string>
 </resources>

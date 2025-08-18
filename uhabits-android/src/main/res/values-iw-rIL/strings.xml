@@ -245,4 +245,5 @@
     <string name="public_backup_frequency_7d">7 ימים</string>
     <string name="public_backup_frequency_14d">14 יום</string>
     <string name="public_backup_frequency_1m">חודש</string>
+    <string name="automatic_backup">גיבוי אוטומטי</string>
 </resources>

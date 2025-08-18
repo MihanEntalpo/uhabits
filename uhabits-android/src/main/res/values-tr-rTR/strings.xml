@@ -233,4 +233,5 @@
     <string name="public_backup_frequency_7d">7 gün</string>
     <string name="public_backup_frequency_14d">14 gün</string>
     <string name="public_backup_frequency_1m">1 ay</string>
+    <string name="automatic_backup">Otomatik yedekleme</string>
 </resources>

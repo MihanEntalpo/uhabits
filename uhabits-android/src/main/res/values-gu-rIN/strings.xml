@@ -32,4 +32,5 @@
     <string name="public_backup_frequency_7d">7 દિવસ</string>
     <string name="public_backup_frequency_14d">14 દિવસ</string>
     <string name="public_backup_frequency_1m">1 મહિનો</string>
+    <string name="automatic_backup">સ્વચાલિત બેકઅપ</string>
 </resources>

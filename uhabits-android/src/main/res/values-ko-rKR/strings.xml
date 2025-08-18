@@ -227,4 +227,5 @@
     <string name="public_backup_frequency_7d">7 일</string>
     <string name="public_backup_frequency_14d">14 일</string>
     <string name="public_backup_frequency_1m">1 개월</string>
+    <string name="automatic_backup">자동 백업</string>
 </resources>

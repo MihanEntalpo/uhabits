@@ -67,4 +67,5 @@
     <string name="public_backup_frequency_7d">7 రోజులు</string>
     <string name="public_backup_frequency_14d">14 రోజులు</string>
     <string name="public_backup_frequency_1m">1 నెల</string>
+    <string name="automatic_backup">ఆటోమేటిక్ బ్యాకప్</string>
 </resources>
