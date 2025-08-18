@@ -50,8 +50,8 @@ import org.isoron.uhabits.core.utils.DateUtils.Companion.getLongWeekdayNames
 import org.isoron.uhabits.database.PublicBackupWorker
 import org.isoron.uhabits.notifications.AndroidNotificationTray.Companion.createAndroidNotificationChannel
 import org.isoron.uhabits.notifications.RingtoneManager
-import org.isoron.uhabits.utils.UriUtils
 import org.isoron.uhabits.utils.StyledResources
+import org.isoron.uhabits.utils.UriUtils
 import org.isoron.uhabits.utils.startActivitySafely
 import org.isoron.uhabits.widgets.WidgetUpdater
 import java.util.Calendar
@@ -158,8 +158,11 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
         val folderPref = findPreference("publicBackupFolder")
         val uriStr = prefs.publicBackupUri
         folderPref?.summary =
-            if (uriStr == null) getString(R.string.pref_public_backup_folder_summary)
-            else UriUtils.getPathFromTreeUri(requireContext(), Uri.parse(uriStr))
+            if (uriStr == null) {
+                getString(R.string.pref_public_backup_folder_summary)
+            } else {
+                UriUtils.getPathFromTreeUri(requireContext(), Uri.parse(uriStr))
+            }
 
         scheduleAutoBackup(prefs.isPublicAutoBackupEnabled)
     }
