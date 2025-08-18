@@ -185,4 +185,5 @@
     <string name="public_backup_frequency_7d">7 dagar</string>
     <string name="public_backup_frequency_14d">14 dagar</string>
     <string name="public_backup_frequency_1m">1 mánuður</string>
+    <string name="automatic_backup">Sjálfvirk öryggisafrit</string>
 </resources>

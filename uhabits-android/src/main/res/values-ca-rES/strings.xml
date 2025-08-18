@@ -224,4 +224,5 @@
     <string name="public_backup_frequency_7d">7 dies</string>
     <string name="public_backup_frequency_14d">14 dies</string>
     <string name="public_backup_frequency_1m">1 mes</string>
+    <string name="automatic_backup">Còpia de seguretat automàtica</string>
 </resources>

@@ -254,4 +254,5 @@
     <string name="public_backup_frequency_7d">7 днів</string>
     <string name="public_backup_frequency_14d">14 днів</string>
     <string name="public_backup_frequency_1m">1 місяць</string>
+    <string name="automatic_backup">Автоматичне резервне копіювання</string>
 </resources>

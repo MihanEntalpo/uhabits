@@ -213,4 +213,5 @@
     <string name="public_backup_frequency_7d">7 dana</string>
     <string name="public_backup_frequency_14d">14 dana</string>
     <string name="public_backup_frequency_1m">1 mjesec</string>
+    <string name="automatic_backup">Automatska sigurnosna kopija</string>
 </resources>

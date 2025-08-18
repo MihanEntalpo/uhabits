@@ -43,4 +43,5 @@
     <string name="public_backup_frequency_7d">7 كۈن</string>
     <string name="public_backup_frequency_14d">14 كۈن</string>
     <string name="public_backup_frequency_1m">1 ئاي</string>
+    <string name="automatic_backup">ئاپتوماتىك زاپاسلاش</string>
 </resources>

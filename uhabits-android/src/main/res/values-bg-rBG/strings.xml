@@ -233,4 +233,5 @@
     <string name="public_backup_frequency_7d">7 дни</string>
     <string name="public_backup_frequency_14d">14 дни</string>
     <string name="public_backup_frequency_1m">1 месец</string>
+    <string name="automatic_backup">Автоматично архивиране</string>
 </resources>

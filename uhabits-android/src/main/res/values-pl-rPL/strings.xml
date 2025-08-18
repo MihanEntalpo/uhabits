@@ -245,4 +245,5 @@
     <string name="public_backup_frequency_7d">7 dni</string>
     <string name="public_backup_frequency_14d">14 dni</string>
     <string name="public_backup_frequency_1m">1 miesiąc</string>
+    <string name="automatic_backup">Automatyczna kopia zapasowa</string>
 </resources>

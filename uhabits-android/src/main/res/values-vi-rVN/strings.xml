@@ -227,4 +227,5 @@
     <string name="public_backup_frequency_7d">7 ngày</string>
     <string name="public_backup_frequency_14d">14 ngày</string>
     <string name="public_backup_frequency_1m">1 tháng</string>
+    <string name="automatic_backup">Sao lưu tự động</string>
 </resources>

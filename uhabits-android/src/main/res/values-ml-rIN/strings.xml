@@ -233,4 +233,5 @@
     <string name="public_backup_frequency_7d">7 ദിവസം</string>
     <string name="public_backup_frequency_14d">14 ദിവസം</string>
     <string name="public_backup_frequency_1m">1 മാസം</string>
+    <string name="automatic_backup">യാന്ത്രിക ബാക്കപ്പ്</string>
 </resources>

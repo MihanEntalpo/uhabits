@@ -233,4 +233,5 @@
     <string name="public_backup_frequency_7d">7 நாட்கள்</string>
     <string name="public_backup_frequency_14d">14 நாட்கள்</string>
     <string name="public_backup_frequency_1m">1 மாதம்</string>
+    <string name="automatic_backup">தானியங்கி காப்புப்பிரதி</string>
 </resources>

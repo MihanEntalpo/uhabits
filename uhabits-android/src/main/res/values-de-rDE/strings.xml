@@ -233,4 +233,5 @@
     <string name="public_backup_frequency_7d">7 Tage</string>
     <string name="public_backup_frequency_14d">14 Tage</string>
     <string name="public_backup_frequency_1m">1 Monat</string>
+    <string name="automatic_backup">Automatische Sicherung</string>
 </resources>
