@@ -56,7 +56,7 @@ class AutoBackup(private val context: Context) {
         val files = dir.listFiles()?.toMutableList() ?: mutableListOf()
         files.sortBy { it.lastModified() }
         val newestTimestamp = files.lastOrNull()?.lastModified() ?: 0L
-        removeOldest(files, keep)
+        removeOldestPrivate(files, keep)
         val now = DateUtils.getLocalTime()
         if (now - newestTimestamp > DateUtils.DAY_LENGTH) {
             DatabaseUtils.saveDatabaseCopy(context, dir)
@@ -68,7 +68,7 @@ class AutoBackup(private val context: Context) {
     private fun runInPublicDir(dir: DocumentFile, keep: Int) {
         val files = dir.listFiles().filter { it.isFile }.sortedBy { it.lastModified() }
         val newestTimestamp = files.lastOrNull()?.lastModified() ?: 0L
-        removeOldest(files, keep)
+        removeOldestPublic(files, keep)
         val now = DateUtils.getLocalTime()
         if (now - newestTimestamp > DateUtils.DAY_LENGTH) {
             DatabaseUtils.saveDatabaseCopy(context, dir)
@@ -77,7 +77,7 @@ class AutoBackup(private val context: Context) {
         }
     }
 
-    private fun removeOldest(files: List<File>, keep: Int) {
+    private fun removeOldestPrivate(files: List<File>, keep: Int) {
         for (k in 0 until (files.size - keep)) {
             val file = files[k]
             Log.i("AutoBackup", "Removing $file")
@@ -85,7 +85,7 @@ class AutoBackup(private val context: Context) {
         }
     }
 
-    private fun removeOldest(files: List<DocumentFile>, keep: Int) {
+    private fun removeOldestPublic(files: List<DocumentFile>, keep: Int) {
         for (k in 0 until (files.size - keep)) {
             val file = files[k]
             Log.i("AutoBackup", "Removing ${file.uri}")
