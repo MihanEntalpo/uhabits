@@ -27,6 +27,7 @@ import android.os.Bundle
 import android.provider.Settings
 import android.util.Log
 import android.view.View
+import androidx.documentfile.provider.DocumentFile
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
@@ -56,10 +57,21 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
 
     @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        if (requestCode == RINGTONE_REQUEST_CODE) {
-            ringtoneManager!!.update(data)
-            updateRingtoneDescription()
-            return
+        when (requestCode) {
+            RINGTONE_REQUEST_CODE -> {
+                ringtoneManager!!.update(data)
+                updateRingtoneDescription()
+                return
+            }
+            PUBLIC_BACKUP_REQUEST_CODE -> {
+                val uri = data?.data ?: return
+                val flags =
+                    Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION
+                requireContext().contentResolver.takePersistableUriPermission(uri, flags)
+                sharedPrefs?.edit()?.putString("publicBackupFolder", uri.toString())?.apply()
+                updatePublicBackupFolderSummary()
+                return
+            }
         }
         super.onActivityResult(requestCode, resultCode, data)
     }
@@ -114,6 +126,16 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
                 activity?.startActivitySafely(intent)
                 return true
             }
+            "publicBackupFolder" -> {
+                val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
+                intent.addFlags(
+                    Intent.FLAG_GRANT_READ_URI_PERMISSION or
+                        Intent.FLAG_GRANT_WRITE_URI_PERMISSION or
+                        Intent.FLAG_GRANT_PERSISTABLE_URI_PERMISSION
+                )
+                startActivityForResult(intent, PUBLIC_BACKUP_REQUEST_CODE)
+                return true
+            }
         }
         return super.onPreferenceTreeClick(preference)
     }
@@ -128,6 +150,7 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
             devCategory.isVisible = false
         }
         updateWeekdayPreference()
+        updatePublicBackupFolderSummary()
 
         findPreference("reminderSound").isVisible = false
     }
@@ -192,7 +215,24 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
         ringtonePreference.summary = ringtoneName
     }
 
+    private fun updatePublicBackupFolderSummary() {
+        val pref = findPreference<Preference>("publicBackupFolder")
+        val uriString = sharedPrefs?.getString("publicBackupFolder", null)
+        if (uriString == null) {
+            pref.summary = getString(R.string.no_public_backup_folder_selected)
+            return
+        }
+        val uri = Uri.parse(uriString)
+        val doc = if (uri.scheme == "content") {
+            DocumentFile.fromTreeUri(requireContext(), uri)
+        } else {
+            DocumentFile.fromFile(java.io.File(uri.path!!))
+        }
+        pref.summary = doc?.name ?: uriString
+    }
+
     companion object {
         private const val RINGTONE_REQUEST_CODE = 1
+        private const val PUBLIC_BACKUP_REQUEST_CODE = 2
     }
 }
