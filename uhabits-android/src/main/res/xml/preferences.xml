@@ -119,6 +119,12 @@
             android:title="@string/database">
 
         <Preference
+                android:key="publicBackupFolder"
+                android:title="@string/select_public_backup_folder"
+                android:summary="@string/no_public_backup_folder_selected"
+                app:iconSpaceReserved="false" />
+
+        <Preference
                 android:key="exportDB"
                 android:summary="@string/export_full_backup_summary"
                 android:title="@string/export_full_backup"
