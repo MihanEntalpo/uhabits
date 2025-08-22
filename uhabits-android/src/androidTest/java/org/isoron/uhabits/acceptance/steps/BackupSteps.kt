@@ -45,7 +45,6 @@ fun exportFullBackup() {
 
 fun clearDownloadFolder() {
     device.executeShellCommand("rm -rf /sdcard/Download")
-    // recreate folder so later shell commands don't fail
     device.executeShellCommand("mkdir /sdcard/Download")
 }
 

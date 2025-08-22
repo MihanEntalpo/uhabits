@@ -31,6 +31,8 @@ import java.io.File
 
 class AutoBackup(private val context: Context) {
 
+    private val backupPattern = Regex("^Loop Habits Backup .+\\.db$")
+
     fun run(keep: Int = 5) {
         Log.i("AutoBackup", "Starting automatic backups...")
         val prefs = PreferenceManager.getDefaultSharedPreferences(context)
@@ -66,7 +68,9 @@ class AutoBackup(private val context: Context) {
     }
 
     private fun runInPublicDir(dir: DocumentFile, keep: Int) {
-        val files = dir.listFiles().filter { it.isFile }.sortedBy { it.lastModified() }
+        val files = dir.listFiles()
+            .filter { it.isFile && it.name?.matches(backupPattern) == true }
+            .sortedBy { it.lastModified() }
         val newestTimestamp = files.lastOrNull()?.lastModified() ?: 0L
         removeOldestPublic(files, keep)
         val now = DateUtils.getLocalTime()
