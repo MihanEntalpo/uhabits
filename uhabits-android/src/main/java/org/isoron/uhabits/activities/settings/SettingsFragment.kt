@@ -24,10 +24,11 @@ import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
 import android.net.Uri
 import android.os.Bundle
+import android.os.Environment
+import android.provider.DocumentsContract
 import android.provider.Settings
 import android.util.Log
 import android.view.View
-import androidx.documentfile.provider.DocumentFile
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
@@ -223,12 +224,27 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
             return
         }
         val uri = Uri.parse(uriString)
-        val doc = if (uri.scheme == "content") {
-            DocumentFile.fromTreeUri(requireContext(), uri)
-        } else {
-            DocumentFile.fromFile(java.io.File(uri.path!!))
+        val path = fullPathFor(uri)
+        pref.summary = path ?: uriString
+    }
+
+    private fun fullPathFor(uri: Uri): String? {
+        return when (uri.scheme) {
+            "content" -> {
+                val docId = DocumentsContract.getTreeDocumentId(uri)
+                val (type, rel) = docId.split(":", limit = 2).let {
+                    it[0] to it.getOrElse(1) { "" }
+                }
+                val base = if (type.equals("primary", true)) {
+                    Environment.getExternalStorageDirectory().absolutePath
+                } else {
+                    "/storage/$type"
+                }
+                if (rel.isEmpty()) base else "$base/$rel"
+            }
+            "file" -> java.io.File(uri.path!!).absolutePath
+            else -> null
         }
-        pref.summary = doc?.name ?: uriString
     }
 
     companion object {
