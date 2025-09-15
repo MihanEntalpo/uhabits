@@ -1,8 +1,5 @@
 <h1 align="center">Loop Habit Tracker</h1>
 <p align="center">
-  <a href="https://github.com/iSoron/uhabits/actions?query=workflow%3A%22Build+%26+Test%22">
-    <img alt="Build & Test" src="https://github.com/iSoron/uhabits/workflows/Build%20&%20Test/badge.svg" />
-  </a>
   <a href="https://github.com/iSoron/uhabits/releases/latest">
     <img alt="release" src="https://img.shields.io/github/v/release/iSoron/uhabits" />
   </a>
@@ -87,7 +84,7 @@ contribute, even if you are not a software developer.
 
 <img align="right" alt="GPL v3" src="https://www.gnu.org/graphics/gplv3-88x31.png">
 
-  Copyright (C) 2016-2021 Álinson Santos Xavier <isoron@gmail.com>
+  Copyright (C) 2016-2025 Álinson Santos Xavier <isoron@gmail.com>
 
   Loop Habit Tracker is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by the

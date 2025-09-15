@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+ * Copyright (C) 2016-2025 Álinson Santos Xavier <git@axavier.org>
  *
  * This file is part of Loop Habit Tracker.
  *
@@ -33,6 +33,8 @@ import org.isoron.uhabits.acceptance.steps.clearDownloadFolder
 import org.isoron.uhabits.acceptance.steps.copyBackupToDownloadFolder
 import org.isoron.uhabits.acceptance.steps.exportFullBackup
 import org.isoron.uhabits.acceptance.steps.importBackupFromDownloadFolder
+import org.isoron.uhabits.acceptance.steps.selectPublicBackupFolder
+import org.isoron.uhabits.acceptance.steps.verifyBackupInDownloadFolder
 import org.junit.Test
 
 @LargeTest
@@ -50,5 +52,15 @@ class BackupTest : BaseUserInterfaceTest() {
         verifyDoesNotDisplayText("Wake up early")
         importBackupFromDownloadFolder()
         verifyDisplaysText("Wake up early")
+    }
+
+    @Test
+    fun shouldExportBackupToPublicFolder() {
+        launchApp()
+        clearDownloadFolder()
+        clearBackupFolder()
+        selectPublicBackupFolder()
+        exportFullBackup()
+        verifyBackupInDownloadFolder()
     }
 }

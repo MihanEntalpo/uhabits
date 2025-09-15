@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~ Copyright (C) 2016-2025 Álinson Santos Xavier <git@axavier.org>
   ~
   ~ This file is part of Loop Habit Tracker.
   ~
@@ -136,4 +136,6 @@
     <string name="export">Eksportér</string>
     <string name="question">Spørsmål</string>
     <string name="x_times_per_y_days">%d ganger på %d dager</string>
+    <string name="select_public_backup_folder">Velg offentlig sikkerhetskopimappe</string>
+    <string name="no_public_backup_folder_selected">Ingen mappe valgt</string>
 </resources>

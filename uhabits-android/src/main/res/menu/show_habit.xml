@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~ Copyright (C) 2016-2025 Álinson Santos Xavier <git@axavier.org>
   ~
   ~ This file is part of Loop Habit Tracker.
   ~
@@ -24,6 +24,16 @@
     <item
         android:id="@+id/export"
         android:title="@string/export"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_archive_habit"
+        android:title="@string/archive"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_unarchive_habit"
+        android:title="@string/unarchive"
         app:showAsAction="never"/>
 
     <item

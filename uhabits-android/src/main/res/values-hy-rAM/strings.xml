@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~ Copyright (C) 2016-2025 Álinson Santos Xavier <git@axavier.org>
   ~
   ~ This file is part of Loop Habit Tracker.
   ~
@@ -82,4 +82,6 @@
     <string name="x_times_per_month">Ամսական %d անգամ</string>
     <string name="color">Գույն</string>
     <string name="today">Այսօր</string>
+    <string name="select_public_backup_folder">Ընտրեք հանրային պահուստային թղթապանակը</string>
+    <string name="no_public_backup_folder_selected">Թղթապանակ չի ընտրվել</string>
 </resources>

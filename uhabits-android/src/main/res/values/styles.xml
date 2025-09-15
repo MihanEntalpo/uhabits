@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~ Copyright (C) 2016-2025 Álinson Santos Xavier <git@axavier.org>
   ~
   ~ This file is part of Loop Habit Tracker.
   ~
@@ -160,7 +160,7 @@
     </style>
 
     <style name="PreferenceThemeOverlay.v14.Material.PureBlack">
-        <item name="android:background">@color/black</item>
+        <item name="colorControlHighlight">@color/white_a0</item>
     </style>
 
 

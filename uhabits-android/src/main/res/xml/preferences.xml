@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~ Copyright (C) 2016-2025 Álinson Santos Xavier <git@axavier.org>
   ~
   ~ This file is part of Loop Habit Tracker.
   ~
@@ -134,6 +134,12 @@
                 android:key="importData"
                 android:summary="@string/import_data_summary"
                 android:title="@string/import_data"
+                app:iconSpaceReserved="false" />
+
+        <Preference
+                android:key="publicBackupFolder"
+                android:title="@string/select_public_backup_folder"
+                android:summary="@string/no_public_backup_folder_selected"
                 app:iconSpaceReserved="false" />
 
     </PreferenceCategory>

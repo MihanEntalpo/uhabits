@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2016-2021 Álinson Santos Xavier <git@axavier.org>
+  ~ Copyright (C) 2016-2025 Álinson Santos Xavier <git@axavier.org>
   ~
   ~ This file is part of Loop Habit Tracker.
   ~
@@ -151,4 +151,6 @@
     <string name="pref_view_privacy">Vidu privatecan politikon</string>
     <string name="view_all_contributors">Rigardi ĉiujn kontribuantojn&#8230;</string>
     <string name="database">Datumbazo</string>
+    <string name="select_public_backup_folder">Elektu publikan sekurkopi-dosierujon</string>
+    <string name="no_public_backup_folder_selected">Neniu dosierujo elektita</string>
 </resources>
